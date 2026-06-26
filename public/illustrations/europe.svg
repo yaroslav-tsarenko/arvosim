@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" fill="none">
+  <rect width="400" height="250" rx="12" fill="#EFF6FF"/>
+  <circle cx="200" cy="120" r="80" fill="#DBEAFE"/>
+  <circle cx="200" cy="120" r="55" fill="#93C5FD" opacity="0.5"/>
+  <text x="200" y="110" text-anchor="middle" font-family="sans-serif" font-size="36" fill="#3B82F6">🇪🇺</text>
+  <text x="200" y="145" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#1E40AF">30+ Countries</text>
+  <text x="200" y="225" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#1E3A8A">Europe eSIM Plans</text>
+</svg>
