@@ -39,7 +39,7 @@ const sections = [
   {
     title: '8. Intellectual Property',
     content:
-      'The Service and its original content, features, and functionality are owned by ARVO LINE LTD (Company number 17221404) and are protected by international copyright, trademark, and other intellectual property laws. Our trademarks, service marks, and logos may not be used in connection with any product or service without our prior written consent.',
+      'The Service and its original content, features, and functionality are owned by ELVORIN LTD (Company number 17344051) and are protected by international copyright, trademark, and other intellectual property laws. Our trademarks, service marks, and logos may not be used in connection with any product or service without our prior written consent.',
   },
   {
     title: '9. Limitation of Liability',
@@ -69,7 +69,7 @@ const sections = [
   {
     title: '14. Contact',
     content:
-      'If you have any questions about these Terms of Service, please contact us at legal@arvosim.com or write to ARVO LINE LTD, Dept 6800, 196 High Road, Wood Green, London, United Kingdom, N22 8HH.',
+      'If you have any questions about these Terms of Service, please contact us at legal@arvosim.com or write to ELVORIN LTD, Dept 6946, 196 High Road, Wood Green, London, United Kingdom, N22 8HH.',
   },
 ];
 

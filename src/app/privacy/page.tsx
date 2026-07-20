@@ -59,7 +59,7 @@ To exercise any of these rights, contact us at privacy@arvosim.com. We will resp
   },
   {
     title: '12. Contact Us',
-    content: `If you have questions or concerns about this Privacy Policy or our data practices, please contact our Data Protection Officer at privacy@arvosim.com, or write to ARVO LINE LTD, Dept 6800, 196 High Road, Wood Green, London, United Kingdom, N22 8HH.
+    content: `If you have questions or concerns about this Privacy Policy or our data practices, please contact our Data Protection Officer at privacy@arvosim.com, or write to ELVORIN LTD, Dept 6946, 196 High Road, Wood Green, London, United Kingdom, N22 8HH.
 
 For complaints regarding our handling of your personal data, you also have the right to lodge a complaint with the Information Commissioner's Office (ICO) at ico.org.uk.`,
   },
