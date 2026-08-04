@@ -96,7 +96,7 @@ export default function ContactPage() {
             <div className="mt-4 space-y-4">
               <div className="flex gap-3"><Mail className="mt-0.5 h-5 w-5 shrink-0 text-primary" /><div><p className="text-sm font-medium text-text">Email</p><p className="text-sm text-text-light">support@arvosim.com</p></div></div>
               <div className="flex gap-3"><Phone className="mt-0.5 h-5 w-5 shrink-0 text-primary" /><div><p className="text-sm font-medium text-text">Phone</p><p className="text-sm text-text-light">+44 20 7946 0958</p></div></div>
-              <div className="flex gap-3"><MapPin className="mt-0.5 h-5 w-5 shrink-0 text-primary" /><div><p className="text-sm font-medium text-text">Address</p><p className="text-sm text-text-light">ELVORIN LTD<br />Dept 6946, 196 High Road, Wood Green, London, United Kingdom, N22 8HH</p></div></div>
+              <div className="flex gap-3"><MapPin className="mt-0.5 h-5 w-5 shrink-0 text-primary" /><div><p className="text-sm font-medium text-text">Address</p><p className="text-sm text-text-light">ARVO LINE LTD<br />Dept 6800, 196 High Road, Wood Green, London, United Kingdom, N22 8HH</p></div></div>
               <div className="flex gap-3"><Clock className="mt-0.5 h-5 w-5 shrink-0 text-primary" /><div><p className="text-sm font-medium text-text">Support Hours</p><p className="text-sm text-text-light">Monday &ndash; Friday: 9:00 AM &ndash; 6:00 PM GMT<br />Saturday: 10:00 AM &ndash; 4:00 PM GMT</p></div></div>
             </div>
           </div>

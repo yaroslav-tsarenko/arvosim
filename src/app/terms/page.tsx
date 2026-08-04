@@ -1,105 +1,688 @@
-import { AnimatedSection } from '@/components/ui/AnimatedSection';
+import { PolicyPage, type PolicySection } from '@/components/sections/PolicyPage';
 
-const sections = [
+const sections: PolicySection[] = [
   {
-    title: '1. Agreement to Terms',
-    content:
-      'By accessing or using the ArvoSim website and services (collectively, the "Service"), you agree to be bound by these Terms of Service. If you do not agree with any part of these terms, you may not access or use the Service. These Terms apply to all visitors, users, and others who access or use the Service.',
+    title: '1. About these Terms',
+    blocks: [
+      `These Terms and Conditions govern your access to and use of the ArvoSim website, your ArvoSim Account and Wallet Balance, and the purchase, delivery and use of eSIM data plans and related services made available through arvosim.com.`,
+      `The ArvoSim service is operated by ARVO LINE LTD, company number 17221404, of Dept 6800, 196 High Road, Wood Green, London, United Kingdom, N22 8HH. Email: info@arvosim.com.`,
+      `In these Terms, "ArvoSim", "we", "us" and "our" refer to ARVO LINE LTD.`,
+      `Please read these Terms carefully before creating an Account, adding funds to your Wallet Balance or ordering an eSIM Plan. By using the Service, you confirm that you have read, understood and agreed to these Terms.`,
+      `If you do not agree to these Terms, you must not use the Service.`,
+    ],
   },
   {
-    title: '2. Description of Service',
-    content:
-      'ArvoSim provides a digital marketplace for purchasing eSIM data plans for international travel. Our Service enables users to browse available data plans, purchase eSIM profiles, and manage their connectivity through our platform. We act as an intermediary between mobile network operators and end users.',
+    title: '2. Definitions',
+    blocks: [
+      `For the purposes of these Terms:`,
+      [
+        `Account means the personal user account created to access the Service, maintain a Wallet Balance and order eSIM Plans.`,
+        `Business User means a person using the Service wholly or mainly for purposes connected with a trade, business, craft or profession.`,
+        `Consumer means an individual using the Service wholly or mainly for purposes outside their trade, business, craft or profession.`,
+        `eSIM means a downloadable electronic SIM profile that enables a compatible device to connect to one or more supported mobile networks.`,
+        `eSIM Plan or Plan means a prepaid mobile data package offered through the Service for a specified country, region, group of destinations, data allowance and validity period.`,
+        `Order means a request submitted through an Account to purchase an eSIM Plan using the available Wallet Balance.`,
+        `Service means the ArvoSim website, Account functionality, Wallet Balance, eSIM marketplace, customer support and related services provided through arvosim.com.`,
+        `Supported Network means a mobile network on which the relevant eSIM Plan is authorised to operate.`,
+        `Wallet Balance means the prepaid account credit recorded in an Account and available for purchasing eligible eSIM Plans through ArvoSim.`,
+        `Website means arvosim.com and any authorised subdomains through which the Service is made available.`,
+      ],
+    ],
   },
   {
-    title: '3. Account Registration',
-    content:
-      'To use certain features of the Service, you must create an account. You are responsible for maintaining the confidentiality of your account credentials and for all activities that occur under your account. You must provide accurate and complete information during registration and keep your account information up to date. You must be at least 18 years old to create an account.',
+    title: '3. Scope of the Service',
+    blocks: [
+      `ArvoSim provides access to prepaid eSIM data plans intended primarily for international travel.`,
+      `Depending on availability, the Service may offer:`,
+      [
+        `local eSIM Plans for a single country;`,
+        `regional eSIM Plans covering multiple countries;`,
+        `global eSIM Plans covering multiple regions or destinations; and`,
+        `different data allowances and validity periods.`,
+      ],
+      `Unless expressly stated otherwise in the description of a particular Plan, ArvoSim eSIM Plans provide mobile data only. They do not include a conventional mobile telephone number, ordinary voice calls or SMS services.`,
+      `Applications that provide calls or messaging over mobile data, such as internet-based messaging or calling applications, may work where sufficient data connectivity is available. ArvoSim does not operate or control those third-party applications.`,
+      `Plan availability, pricing, Supported Networks, coverage areas and technical features may change from time to time.`,
+    ],
   },
   {
-    title: '4. Purchases and Payments',
-    content:
-      'All eSIM plan purchases are processed in GBP (British Pounds). Prices displayed in other currencies are estimates based on current exchange rates and may differ from the actual charged amount. Payment is required at the time of purchase. We accept Visa and Mastercard credit and debit cards only. All transactions are processed with 3D Secure authentication for your protection. Wallet top-ups are non-refundable but never expire.',
+    title: '4. Eligibility',
+    blocks: [
+      `You must be at least 18 years old and legally capable of entering into a binding contract to create an Account or purchase an eSIM Plan.`,
+      `By using the Service, you confirm that:`,
+      [
+        `the information you provide is accurate, complete and current;`,
+        `you are authorised to use any payment card submitted for a Wallet top-up;`,
+        `you are not subject to sanctions or other legal restrictions that prohibit us from providing the Service to you;`,
+        `you will use the Service only for lawful purposes; and`,
+        `your device is compatible with the eSIM Plan you intend to purchase.`,
+      ],
+      `The Service is intended primarily for personal travel connectivity. You may not resell, distribute or commercially exploit an eSIM, Wallet Balance or other part of the Service without our prior written consent.`,
+    ],
   },
   {
-    title: '5. eSIM Activation and Usage',
-    content:
-      'eSIM profiles are delivered digitally via QR code after purchase. Once an eSIM profile has been downloaded and activated on a device, it is considered used and is non-transferable. Plan validity begins when the eSIM first connects to a supported network in the coverage area. Data usage is tracked by the network operator and may differ slightly from on-device usage indicators.',
+    title: '5. Account registration',
+    blocks: [
+      `You must create an Account to add funds, maintain a Wallet Balance and order eSIM Plans.`,
+      `You must provide accurate and complete registration information and keep it up to date. In particular, you must maintain access to the email address associated with your Account because QR codes, Order information, service notices and support communications will be delivered to that address.`,
+      `You are responsible for:`,
+      [
+        `keeping your login credentials confidential;`,
+        `using a strong and unique password;`,
+        `preventing unauthorised access to your Account;`,
+        `reviewing Account activity; and`,
+        `notifying us promptly if you believe your Account or email address has been compromised.`,
+      ],
+      `You must not create an Account using false information, impersonate another person, share an Account in a manner that creates a security risk or use another person's Account without permission.`,
+      `We may require reasonable information to verify your identity, ownership of an Account, entitlement to a Wallet Balance or authority to use a payment method.`,
+      `You are responsible for activity carried out through your Account unless it results directly from our failure to apply reasonable security measures.`,
+    ],
   },
   {
-    title: '6. Refund Policy',
-    content:
-      'We offer a full refund for unused eSIM plans within 30 days of purchase. An eSIM is considered "used" once it has connected to a network and consumed any amount of data. To request a refund, contact our support team with your order reference. Refunds are processed to the original payment method within 5-10 business days. Wallet balance top-ups are non-refundable.',
+    title: '6. Device compatibility and requirements',
+    blocks: [
+      `Before ordering an eSIM Plan, you are responsible for confirming that your device:`,
+      [
+        `supports eSIM technology;`,
+        `is not restricted or locked to another mobile network;`,
+        `supports the network bands and technologies used in the relevant destination;`,
+        `permits installation of an additional eSIM profile;`,
+        `has current and supported software; and`,
+        `has access to Wi-Fi or another internet connection during installation.`,
+      ],
+      `Compatibility information made available on the Website is provided as general guidance. Device manufacturers, mobile operators and regional device variants may impose additional restrictions that are outside our control.`,
+      `The same device model may support eSIM in one market but not another. You should therefore verify compatibility using the device settings, manufacturer documentation or your existing mobile operator before placing an Order.`,
+      `You are responsible for configuring your device correctly, including selecting the ArvoSim eSIM for mobile data and managing data roaming settings where required.`,
+      `ArvoSim is not responsible for roaming charges imposed by your primary mobile provider because your device, home SIM or data settings were configured incorrectly.`,
+    ],
   },
   {
-    title: '7. Acceptable Use',
-    content:
-      'You agree not to use the Service for any unlawful purpose or in violation of any applicable laws. You may not resell, redistribute, or commercially exploit eSIM plans purchased through ArvoSim without our prior written consent. Excessive or abusive usage that degrades network quality for other users may result in throttling or suspension of service.',
+    title: '7. Wallet Balance',
+    blocks: [
+      `7.1 Wallet-only purchasing model`,
+      `eSIM Plans may only be purchased using sufficient funds held in your Wallet Balance.`,
+      `Payment cards cannot be used to purchase an eSIM Plan directly. A user must first add funds to their Wallet Balance and then use that balance to submit an Order.`,
+      `7.2 Nature of the Wallet Balance`,
+      `The Wallet Balance is prepaid account credit that may be used only for eligible purchases through ArvoSim.`,
+      `The Wallet Balance:`,
+      [
+        `is linked to the relevant Account;`,
+        `is not transferable between users;`,
+        `cannot ordinarily be withdrawn on demand;`,
+        `does not earn interest;`,
+        `is not an investment product; and`,
+        `must not be sold, exchanged or used outside the Service.`,
+      ],
+      `A Wallet Balance is not a bank account.`,
+      `Except where these Terms, our Refund and Cancellation Policy or applicable law provide otherwise, adding funds to the Wallet Balance is final and non-refundable.`,
+      `7.3 Currency`,
+      `The Wallet Balance is maintained in pounds sterling, or GBP.`,
+      `The Website may display approximate prices or equivalents in GBP, EUR or USD. Where a non-GBP amount is displayed, it may be based on an indicative exchange rate.`,
+      `The final amount to be charged for a Wallet top-up will be shown before payment authorisation. Your card issuer or payment provider may apply its own conversion rate or foreign transaction charges. Such charges are outside our control and are not received by ArvoSim.`,
+      `7.4 Minimum top-up`,
+      `The minimum Wallet top-up is £10, unless a different minimum is clearly displayed before payment.`,
+      `We may introduce or change available top-up amounts for future transactions. Any change will not reduce an existing Wallet Balance.`,
+      `7.5 Expiry`,
+      `Purchased Wallet Balance does not expire while the Account remains open.`,
+      `This does not prevent us from suspending an Account where required by law, for security reasons or because of a breach of these Terms.`,
+    ],
   },
   {
-    title: '8. Intellectual Property',
-    content:
-      'The Service and its original content, features, and functionality are owned by ELVORIN LTD (Company number 17344051) and are protected by international copyright, trademark, and other intellectual property laws. Our trademarks, service marks, and logos may not be used in connection with any product or service without our prior written consent.',
+    title: '8. Wallet top-ups and card payments',
+    blocks: [
+      `Wallet top-ups may be made using supported Visa or Mastercard credit or debit cards.`,
+      `Card payments may be processed by a third-party payment provider and may be subject to:`,
+      [
+        `payment authorisation;`,
+        `3D Secure authentication;`,
+        `fraud-prevention checks;`,
+        `card issuer approval;`,
+        `transaction limits; and`,
+        `the payment provider's own terms.`,
+      ],
+      `We may refuse, delay or cancel a top-up where:`,
+      [
+        `payment cannot be authorised;`,
+        `the information supplied is incomplete or inconsistent;`,
+        `the transaction appears unauthorised, fraudulent or abusive;`,
+        `additional verification is required;`,
+        `the payment provider or card issuer rejects the transaction;`,
+        `the transaction would breach applicable law; or`,
+        `a technical error affects the payment or Wallet record.`,
+      ],
+      `A Wallet top-up is completed only when the payment has been successfully authorised and the corresponding amount has been credited to the Account.`,
+      `If a payment is reversed, charged back or later determined to be unauthorised, we may reverse the corresponding Wallet credit. If the Wallet Balance has already been spent, the Account may show a negative balance and we may suspend further use until the amount is resolved.`,
+      `You must not initiate a chargeback for a transaction that you recognise without first giving us a reasonable opportunity to investigate the issue through info@arvosim.com. Nothing in this section prevents you from exercising rights available through your card issuer or under applicable law.`,
+    ],
   },
   {
-    title: '9. Limitation of Liability',
-    content:
-      'To the maximum extent permitted by applicable law, ArvoSim shall not be liable for any indirect, incidental, special, consequential, or punitive damages resulting from your use of or inability to use the Service. This includes but is not limited to loss of data, loss of profits, or business interruption. Our total liability for any claim arising from the Service shall not exceed the amount you paid to ArvoSim in the 12 months preceding the claim.',
+    title: '9. Prices and taxes',
+    blocks: [
+      `Prices displayed for eSIM Plans include any VAT or similar sales taxes that ArvoSim is required to collect in connection with the transaction.`,
+      `The price applicable to an Order is the price displayed when the Order is submitted.`,
+      `We may change prices at any time, but a price change will not affect an Order that we have already accepted.`,
+      `Obvious pricing, currency or technical errors are not binding. If an error is identified before an eSIM is delivered, we may cancel the affected Order, restore the amount deducted from the Wallet Balance and allow the user to submit a new Order at the correct price.`,
+    ],
   },
   {
-    title: '10. Network Coverage and Performance',
-    content:
-      'While we strive to provide accurate coverage information, network availability and performance depend on local operators and infrastructure. We do not guarantee specific speeds, uptime, or coverage in all areas within a listed country. Network performance may vary based on location, time of day, device capability, and local network conditions.',
+    title: '10. Ordering an eSIM Plan',
+    blocks: [
+      `To place an Order, you must:`,
+      [
+        `sign in to your Account;`,
+        `select a destination and eSIM Plan;`,
+        `review the coverage, data allowance, validity period and price;`,
+        `confirm device compatibility;`,
+        `ensure that the Wallet Balance contains sufficient funds;`,
+        `provide any required consent for digital delivery; and`,
+        `submit the Order.`,
+      ],
+      `The Plan price may be deducted or reserved from the Wallet Balance when the Order is submitted.`,
+      `Submitting an Order constitutes an offer to purchase the selected eSIM Plan. It does not guarantee that the Plan is available or that the Order has been accepted.`,
+      `An Order is accepted when we send the eSIM QR code or otherwise send an express acceptance and fulfilment confirmation to the email address associated with the Account.`,
+      `We may reject an Order before acceptance where:`,
+      [
+        `the selected Plan is unavailable;`,
+        `the destination or Supported Network is temporarily unavailable;`,
+        `the Wallet Balance is insufficient;`,
+        `the Order requires additional verification;`,
+        `the Order appears fraudulent or abusive;`,
+        `the user is located in or connected with a prohibited jurisdiction;`,
+        `the Order would breach applicable law; or`,
+        `a technical or pricing error has occurred.`,
+      ],
+      `If an Order is rejected, the amount deducted or reserved for that Order will be restored to the Wallet Balance.`,
+    ],
   },
   {
-    title: '11. Privacy',
-    content:
-      'Your use of the Service is also governed by our Privacy Policy, which describes how we collect, use, and share your personal information. By using the Service, you consent to the data practices described in our Privacy Policy.',
+    title: '11. Manual processing and digital delivery',
+    blocks: [
+      `ArvoSim Orders are processed manually.`,
+      `The eSIM QR code and relevant installation information will normally be sent to the email address associated with the Account within several hours after the Order has been successfully submitted.`,
+      `Delivery times are estimates rather than guaranteed deadlines. Processing may take longer:`,
+      [
+        `outside normal operating hours;`,
+        `during weekends or public holidays;`,
+        `during periods of increased demand;`,
+        `where payment, security or Account verification is required;`,
+        `where the selected Plan requires confirmation from a network or technical provider;`,
+        `where the Plan is temporarily unavailable; or`,
+        `because of technical problems affecting email or the Service.`,
+      ],
+      `You are responsible for ensuring that the email address associated with your Account is correct and accessible.`,
+      `You should also check spam, junk, promotions and other filtered email folders if the QR-code email is not visible in your main inbox.`,
+      `An eSIM is considered digitally delivered when the email containing the QR code or activation information is sent to the email address recorded in the Account.`,
+      `If you have not received the QR code within a reasonable period, you must contact info@arvosim.com and provide the relevant Order details.`,
+      `Where appropriate, we may:`,
+      [
+        `resend the original email;`,
+        `provide replacement installation information;`,
+        `issue a replacement eSIM;`,
+        `restore the Plan price to the Wallet Balance; or`,
+        `provide another remedy required by applicable law.`,
+      ],
+      `Further delivery rules are set out in the eSIM Delivery and Activation Policy.`,
+    ],
   },
   {
-    title: '12. Changes to Terms',
-    content:
-      'We reserve the right to modify or replace these Terms at any time. Material changes will be communicated via email or a prominent notice on our website at least 30 days before they take effect. Your continued use of the Service after changes become effective constitutes acceptance of the revised Terms.',
+    title: '12. Digital content and cancellation consent',
+    blocks: [
+      `An eSIM is digital content supplied without a tangible medium.`,
+      `Before we begin digital delivery during any applicable statutory cancellation period, we may require you to:`,
+      [
+        `expressly request or consent to the immediate or early supply of the eSIM; and`,
+        `acknowledge that the statutory right to cancel may be lost once supply of the digital content begins.`,
+      ],
+      `Supply begins when the QR code or equivalent activation information is delivered to the email address associated with the Account.`,
+      `Where applicable law requires a separate checkbox or similar confirmation, acceptance of these Terms alone will not replace that separate confirmation.`,
+      `Even where a statutory cancellation right has ended because digital supply has begun, ArvoSim provides the additional voluntary refund rights described in Section 18 and in the Refund and Cancellation Policy.`,
+      `Your mandatory rights in relation to digital content that is faulty, not as described or not provided with reasonable care are not affected.`,
+    ],
   },
   {
-    title: '13. Governing Law',
-    content:
-      'These Terms shall be governed by and construed in accordance with the laws of England and Wales, without regard to conflict of law provisions. Any disputes arising from these Terms or the Service shall be subject to the exclusive jurisdiction of the courts of England and Wales.',
+    title: '13. Installation of the eSIM',
+    blocks: [
+      `The QR code is intended for installation on a compatible device and may be restricted to a single installation.`,
+      `You must:`,
+      [
+        `follow the installation instructions carefully;`,
+        `use a stable internet connection;`,
+        `install the eSIM on the device on which you intend to use it;`,
+        `avoid scanning the QR code on an unsupported device;`,
+        `retain the QR-code email until the installation and initial connection are complete; and`,
+        `contact support before deleting an installed eSIM where a problem occurs.`,
+      ],
+      `You must not share, publish, forward, sell or otherwise disclose a QR code or activation credential to another person.`,
+      `Deleting an eSIM profile from a device may permanently prevent it from being reinstalled. ArvoSim cannot guarantee that a deleted, transferred or incorrectly installed eSIM can be reissued.`,
+      `You should contact support before removing an eSIM that is not functioning correctly.`,
+    ],
   },
   {
-    title: '14. Contact',
-    content:
-      'If you have any questions about these Terms of Service, please contact us at legal@arvosim.com or write to ELVORIN LTD, Dept 6946, 196 High Road, Wood Green, London, United Kingdom, N22 8HH.',
+    title: '14. Activation and Plan validity',
+    blocks: [
+      `Unless the relevant Plan description states otherwise, the validity period begins when the eSIM first connects to a Supported Network within the applicable coverage area.`,
+      `Installing the eSIM before travelling will not normally begin the validity period unless the eSIM connects to a Supported Network during installation or the relevant Plan uses a different activation method.`,
+      `You are responsible for reviewing the activation conditions shown for the selected Plan.`,
+      `Once activated, the validity period runs continuously and cannot normally be paused, suspended, extended or restarted.`,
+      `Unused data does not roll over after the Plan expires unless the Plan description expressly states otherwise.`,
+      `When the data allowance is exhausted or the validity period ends, the eSIM will stop providing data. You may need to purchase another Plan. A Plan cannot be extended or topped up unless that functionality is expressly offered for the relevant eSIM.`,
+    ],
+  },
+  {
+    title: '15. Data usage',
+    blocks: [
+      `Data usage is measured by the relevant network or technical provider.`,
+      `The usage shown in your device settings may differ from the network record because of measurement intervals, background activity, system traffic, rounding or delayed reporting.`,
+      `The network or provider record will be used to determine actual consumption, remaining allowance and whether an eSIM has been used, except where there is clear evidence of an error.`,
+      `Applications, operating-system updates, cloud backups, video streaming, hotspot use and background processes may consume significant amounts of data.`,
+      `You are responsible for monitoring your usage and adjusting device settings where necessary.`,
+      `Some Plans may be subject to fair-use, traffic-management, tethering or speed restrictions imposed by the relevant network. Where material restrictions are known to us, they will be included in the Plan description or supporting information.`,
+    ],
+  },
+  {
+    title: '16. Network coverage and performance',
+    blocks: [
+      `Coverage maps, country lists, supported network information and speed descriptions are estimates and do not guarantee connectivity at every location.`,
+      `Mobile coverage and performance depend on factors outside ArvoSim's direct control, including:`,
+      [
+        `local network availability;`,
+        `network congestion;`,
+        `geographic conditions;`,
+        `buildings and physical obstructions;`,
+        `weather or infrastructure incidents;`,
+        `the device model and supported frequency bands;`,
+        `network maintenance;`,
+        `local regulations;`,
+        `the user's location and movement;`,
+        `temporary operator restrictions; and`,
+        `the availability of 4G, LTE or 5G services.`,
+      ],
+      `We do not guarantee a specific speed, uninterrupted connection, latency, network technology or level of coverage.`,
+      `A Plan described as supporting 5G may connect through 4G or LTE where 5G is unavailable or unsupported by the device.`,
+      `Supported Networks may be changed where reasonably necessary, provided that the Plan continues to offer materially equivalent coverage where possible.`,
+      `The Service must not be relied upon as the sole means of communication for emergencies, safety-critical activity, medical needs or other situations where continuous connectivity is essential.`,
+    ],
+  },
+  {
+    title: '17. User responsibilities and acceptable use',
+    blocks: [
+      `You must use the Service and any eSIM in a lawful, reasonable and responsible manner.`,
+      `You must not:`,
+      [
+        `use the Service for any unlawful, fraudulent or abusive purpose;`,
+        `use stolen, compromised or unauthorised payment information;`,
+        `interfere with the Website, networks, systems or security controls;`,
+        `attempt to bypass technical restrictions or usage limitations;`,
+        `distribute malware or conduct network attacks;`,
+        `engage in spam, phishing, harassment or unlawful surveillance;`,
+        `use an eSIM in a way that infringes third-party rights;`,
+        `resell, sublicense, transfer or commercially distribute an eSIM without permission;`,
+        `share QR codes or Account credentials;`,
+        `manipulate promotions, refunds, Wallet credits or payment processes;`,
+        `create multiple Accounts to circumvent restrictions;`,
+        `use automated systems to scrape, overload or disrupt the Service;`,
+        `reverse engineer or attempt to extract protected elements of the Service except where permitted by law; or`,
+        `use the Service in breach of sanctions, export controls or telecommunications laws.`,
+      ],
+      `Additional rules may be set out in our Acceptable Use Policy.`,
+      `A breach of this section may result in restriction, suspension or termination of the relevant eSIM, Order or Account.`,
+    ],
+  },
+  {
+    title: '18. Refunds and cancellations',
+    blocks: [
+      `18.1 Cancellation before delivery`,
+      `You may request cancellation of an Order before the eSIM QR code has been delivered.`,
+      `Where the Order has not yet been accepted or fulfilled, the Plan price will be restored to the Wallet Balance.`,
+      `We cannot guarantee that a cancellation request will be processed before delivery if the Order is already being fulfilled.`,
+      `18.2 Voluntary 30-day refund for unused Plans`,
+      `ArvoSim offers a full refund for an unused eSIM Plan where:`,
+      [
+        `the request is submitted within 30 days of purchase;`,
+        `the eSIM has not connected to a Supported Network and consumed data;`,
+        `the user provides sufficient information to identify the Order; and`,
+        `the request is not fraudulent or abusive.`,
+      ],
+      `An eSIM is considered used once network records show that it has connected to a Supported Network and consumed any amount of data.`,
+      `An approved refund for an eSIM purchased using Wallet Balance will normally be returned to the Wallet Balance.`,
+      `Refunds are not ordinarily paid directly to a card merely because an eSIM Order is cancelled, since the card transaction relates to the earlier Wallet top-up rather than the eSIM Order.`,
+      `18.3 Faulty, invalid or unavailable eSIMs`,
+      `If an eSIM is not delivered, contains an invalid or unusable QR code, cannot be provisioned, does not materially match the Plan description, or cannot connect because of a fault attributable to the supplied eSIM or service, you must contact support promptly and provide reasonable information required for troubleshooting.`,
+      `We may first attempt to:`,
+      [
+        `resend the QR code;`,
+        `provide corrected settings or instructions;`,
+        `repair or reprovision the eSIM;`,
+        `issue a replacement eSIM; or`,
+        `provide a materially equivalent Plan.`,
+      ],
+      `If the problem cannot be resolved within a reasonable period, we may restore the Plan price to the Wallet Balance, provide an appropriate price reduction or issue another remedy required by applicable law.`,
+      `18.4 Circumstances normally not eligible for a refund after use`,
+      `Subject to mandatory law, a refund will not normally be available where:`,
+      [
+        `the eSIM has connected to a Supported Network and consumed data;`,
+        `the user purchased the wrong destination or Plan and then used it;`,
+        `the device is incompatible, carrier-locked or incorrectly configured;`,
+        `the user fails to enable required settings;`,
+        `the eSIM was deleted, transferred or installed incorrectly;`,
+        `the user is unable to travel or changes travel plans after using the eSIM;`,
+        `coverage or speed varies because of local network conditions;`,
+        `third-party applications do not function as expected;`,
+        `data was consumed by background activity or device settings; or`,
+        `the request is fraudulent or abusive.`,
+      ],
+      `Nothing in this section limits rights that cannot legally be excluded.`,
+      `18.5 Processing time`,
+      `Approved refunds and Wallet adjustments are processed without undue delay and will normally appear within 5–10 business days, depending on the remedy and any payment provider involved.`,
+      `Further details are provided in the Refund and Cancellation Policy.`,
+    ],
+  },
+  {
+    title: '19. Wallet top-up refunds',
+    blocks: [
+      `Wallet top-ups are not ordinarily refundable and cannot be withdrawn while an Account remains active.`,
+      `This restriction does not apply where:`,
+      [
+        `the payment was duplicated or processed incorrectly;`,
+        `the top-up was unauthorised and verified as such;`,
+        `a refund is required by applicable law;`,
+        `we permanently discontinue the Wallet service; or`,
+        `the Account is finally closed in accordance with Section 21.`,
+      ],
+      `Wallet credits issued as a promotion, bonus, goodwill adjustment or non-cash benefit do not have a cash value and are not refundable unless the terms of the relevant offer expressly state otherwise.`,
+    ],
+  },
+  {
+    title: '20. Chargebacks and payment disputes',
+    blocks: [
+      `If you believe that a Wallet top-up is incorrect, duplicated, unauthorised or connected with a service failure, you should contact info@arvosim.com before initiating a chargeback so that we can investigate and attempt to resolve the matter.`,
+      `You should provide:`,
+      [
+        `the Account email address;`,
+        `the transaction date and amount;`,
+        `the relevant Order or payment reference; and`,
+        `a description of the problem.`,
+      ],
+      `We will not restrict your legal right to contact your card issuer or payment provider.`,
+      `However, where a chargeback is initiated for a valid and recognised payment, we may suspend the Account, reverse corresponding Wallet credit and investigate the transaction.`,
+      `Fraudulent chargebacks, repeated misuse of payment disputes or attempts to retain both the Wallet Balance and reversed payment may result in Account termination and recovery of amounts lawfully owed.`,
+    ],
+  },
+  {
+    title: '21. Account closure by the user',
+    blocks: [
+      `An Account cannot currently be closed through a self-service function.`,
+      `To request final Account closure, you must email info@arvosim.com from the email address associated with the Account.`,
+      `We may require reasonable identity and security verification before processing the request.`,
+      `Before the Account is closed, we may need to:`,
+      [
+        `complete or cancel pending Orders;`,
+        `resolve refunds, disputes or chargebacks;`,
+        `verify the source of Wallet funds;`,
+        `investigate suspected unauthorised activity; and`,
+        `deduct amounts validly owed to us because of reversed or disputed payments.`,
+      ],
+      `Following final closure, the verified unused cash-funded Wallet Balance will be returned without an administrative deduction, subject to applicable law and completion of the required verification.`,
+      `The refund will normally be made to the original payment method where reasonably possible. Where more than one payment method was used, a payment method is no longer available or technical restrictions prevent the original route, we may request alternative reasonable payment information.`,
+      `Promotional, bonus, goodwill or other non-cash credits are not included in the refundable closing balance unless expressly stated otherwise.`,
+      `Closing an Account does not automatically delete information that we must retain for legal, accounting, fraud-prevention or dispute-resolution purposes. Personal data will be handled in accordance with the Privacy Policy.`,
+    ],
+  },
+  {
+    title: '22. Suspension and termination by ArvoSim',
+    blocks: [
+      `We may restrict, suspend or terminate an Account, Wallet function, Order or eSIM where reasonably necessary because:`,
+      [
+        `these Terms or another applicable policy have been breached;`,
+        `fraudulent, abusive or unauthorised activity is suspected;`,
+        `a payment is reversed or charged back;`,
+        `identity or payment verification cannot be completed;`,
+        `continued service would create a security risk;`,
+        `the Service is being resold without permission;`,
+        `we are required to act by law, a regulator, court, payment provider or network;`,
+        `the user is subject to sanctions or other legal restrictions;`,
+        `the Account has been compromised; or`,
+        `continued use may harm ArvoSim, a network provider, another user or a third party.`,
+      ],
+      `Where reasonably possible and legally permitted, we will explain the reason and provide an opportunity to resolve the issue.`,
+      `We may suspend access immediately where delay would create a legal, fraud, security or network risk.`,
+      `If we permanently terminate an Account without the user having materially breached these Terms, the unused cash-funded Wallet Balance will be refunded in accordance with Section 21.`,
+      `Where termination results from fraud, chargebacks, unlawful activity or amounts owed to us, we may deduct or withhold only those amounts that we are legally entitled or required to retain.`,
+    ],
+  },
+  {
+    title: '23. Prohibited jurisdictions and sanctions',
+    blocks: [
+      `The Service is not offered where its provision, purchase or use would violate applicable sanctions, export controls, telecommunications restrictions or other laws.`,
+      `You must not use the Service if:`,
+      [
+        `you are a person or entity subject to applicable sanctions;`,
+        `you are acting on behalf of a sanctioned person or entity;`,
+        `the transaction involves a prohibited country, territory, person or activity; or`,
+        `using the Service would cause ArvoSim or one of its providers to breach applicable law.`,
+      ],
+      `Availability shown on the Website does not override legal restrictions.`,
+      `We may conduct reasonable sanctions, fraud and payment screening and may refuse or suspend transactions where required.`,
+      `The territories and restrictions applicable to the Service may change from time to time in response to changes in law, network availability or provider requirements.`,
+    ],
+  },
+  {
+    title: '24. Third-party networks and providers',
+    blocks: [
+      `ArvoSim relies on third-party mobile networks, connectivity providers, payment providers, hosting providers, email systems and other suppliers to provide the Service.`,
+      `The identity of an available network may vary by country and may change without notice where technically or commercially necessary.`,
+      `Third-party network outages, maintenance, coverage limitations and technical restrictions may affect an eSIM.`,
+      `Nothing in these Terms makes you a direct customer of a local mobile operator unless the applicable operator expressly states otherwise.`,
+      `Third-party websites, applications and services are governed by their own terms and privacy practices. ArvoSim is not responsible for independent third-party services that are not under our control.`,
+    ],
+  },
+  {
+    title: '25. Website availability',
+    blocks: [
+      `We aim to keep the Website and Service available, but we do not guarantee uninterrupted or error-free access.`,
+      `We may temporarily restrict access for:`,
+      [
+        `maintenance;`,
+        `security updates;`,
+        `technical repairs;`,
+        `provider changes;`,
+        `fraud prevention;`,
+        `legal compliance; or`,
+        `circumstances outside our reasonable control.`,
+      ],
+      `We may modify, replace or discontinue features of the Service. Where a material change affects an existing Wallet Balance or accepted Order, we will take reasonable steps to protect the user's existing contractual rights.`,
+    ],
+  },
+  {
+    title: '26. Intellectual property',
+    blocks: [
+      `The Website, ArvoSim brand, software, interfaces, text, graphics, databases, design, logos and other original content made available through the Service are owned by or licensed to ARVO LINE LTD and are protected by applicable intellectual property laws.`,
+      `We grant you a limited, personal, non-exclusive, non-transferable and revocable right to access and use the Service for its intended purpose in accordance with these Terms.`,
+      `You may not, without prior written permission:`,
+      [
+        `copy or commercially reproduce protected content;`,
+        `use ArvoSim branding in a misleading manner;`,
+        `modify or create derivative works from the Website;`,
+        `extract or reuse a substantial part of a database;`,
+        `attempt to obtain source code except where permitted by law; or`,
+        `use the Service to develop a competing product through unauthorised scraping or extraction.`,
+      ],
+      `Product names, operator names and third-party marks remain the property of their respective owners.`,
+    ],
+  },
+  {
+    title: '27. Privacy and communications',
+    blocks: [
+      `Our processing of personal data is described in the ArvoSim Privacy Policy.`,
+      `By creating an Account or submitting an Order, you agree to receive service communications necessary for the operation of the Account, including:`,
+      [
+        `payment and Wallet confirmations;`,
+        `Order and delivery emails;`,
+        `QR codes and installation information;`,
+        `security notices;`,
+        `Plan-related information;`,
+        `support responses; and`,
+        `important legal or service notices.`,
+      ],
+      `Transactional communications are not marketing messages and may be necessary to provide the Service.`,
+      `Marketing communications will be sent only where permitted by applicable law. You may unsubscribe from marketing without affecting essential service communications.`,
+    ],
+  },
+  {
+    title: '28. Our responsibility to Consumers',
+    blocks: [
+      `Nothing in these Terms excludes or limits liability where doing so would be unlawful.`,
+      `This includes liability for:`,
+      [
+        `death or personal injury caused by negligence;`,
+        `fraud or fraudulent misrepresentation;`,
+        `breach of mandatory consumer rights; or`,
+        `any other liability that cannot legally be limited.`,
+      ],
+      `If you are a Consumer, we are responsible for loss or damage that is a foreseeable result of our breach of these Terms or failure to use reasonable care and skill.`,
+      `We are not responsible for loss or damage that:`,
+      [
+        `was not reasonably foreseeable when the contract was formed;`,
+        `results from incorrect device configuration or incompatible equipment;`,
+        `is caused by a third-party network failure outside our reasonable control;`,
+        `results from your breach of these Terms;`,
+        `could reasonably have been avoided by following our instructions; or`,
+        `arises because you relied on the Service for emergency or safety-critical communication.`,
+      ],
+      `The Service is intended for personal use. We are not responsible to Consumers for business losses, including loss of profit, revenue, business opportunity, goodwill or commercial data.`,
+      `Your statutory consumer rights remain unaffected.`,
+    ],
+  },
+  {
+    title: '29. Our responsibility to Business Users',
+    blocks: [
+      `If you use the Service as a Business User, then, to the maximum extent permitted by law:`,
+      [
+        `all implied warranties and conditions are excluded;`,
+        `we are not liable for loss of profit, revenue, business, contracts, goodwill, anticipated savings or indirect or consequential loss; and`,
+        `our total aggregate liability arising from the Service will not exceed the total amount paid by you to ArvoSim during the 12 months preceding the event giving rise to the claim.`,
+      ],
+      `The exclusions in this section do not apply to liability that cannot legally be excluded or limited.`,
+    ],
+  },
+  {
+    title: '30. Events outside our control',
+    blocks: [
+      `We are not responsible for delay or failure caused by circumstances outside our reasonable control, including:`,
+      [
+        `mobile network outages;`,
+        `internet or email disruption;`,
+        `power failures;`,
+        `cyberattacks;`,
+        `failures of payment or technical providers;`,
+        `natural disasters;`,
+        `severe weather;`,
+        `war, terrorism or civil disturbance;`,
+        `government action;`,
+        `sanctions;`,
+        `regulatory changes;`,
+        `industrial disputes;`,
+        `public-health emergencies; or`,
+        `failure of telecommunications infrastructure.`,
+      ],
+      `We will take reasonable steps to reduce the effect of such events and resume the affected Service where practicable.`,
+    ],
+  },
+  {
+    title: '31. Complaints and support',
+    blocks: [
+      `Questions, complaints and support requests should be sent to info@arvosim.com.`,
+      `Please include the Account email address, Order reference and sufficient information to allow us to investigate.`,
+      `We will aim to acknowledge and investigate complaints within a reasonable period. Complex technical, payment or network issues may require information from third-party providers and may take longer to resolve.`,
+      `Before commencing formal proceedings, both parties should make reasonable efforts to resolve the dispute directly.`,
+      `Nothing in this section prevents a Consumer from using any court, regulator, card-provider process or alternative dispute mechanism available under applicable law.`,
+      `Further information may be provided in the Complaints and Dispute Resolution Policy.`,
+    ],
+  },
+  {
+    title: '32. Changes to these Terms',
+    blocks: [
+      `We may update these Terms to reflect:`,
+      [
+        `changes to the Service;`,
+        `new features;`,
+        `legal or regulatory requirements;`,
+        `security or fraud risks;`,
+        `payment or network provider requirements; or`,
+        `changes to our business operations.`,
+      ],
+      `The updated version will be posted on the Website with a revised "Last updated" date.`,
+      `Where a change materially affects existing users, we will provide reasonable notice by email, through the Account or by a prominent Website notice.`,
+      `Changes will apply prospectively and will not retroactively reduce rights relating to an Order already accepted.`,
+      `If you do not agree to a material change, you may stop using the Service and request Account closure in accordance with Section 21.`,
+    ],
+  },
+  {
+    title: '33. Transfer of rights',
+    blocks: [
+      `You may not transfer your Account, Wallet Balance, eSIM or rights under these Terms to another person without our written consent.`,
+      `We may transfer our rights and obligations to another organisation as part of a restructuring, sale, merger or transfer of the Service, provided that the transfer does not materially reduce your rights.`,
+      `Where required, we will notify affected users.`,
+    ],
+  },
+  {
+    title: '34. Severability',
+    blocks: [
+      `If any provision of these Terms is found to be unlawful, invalid or unenforceable, that provision will be treated as modified to the minimum extent necessary or removed.`,
+      `The remaining provisions will continue in effect.`,
+    ],
+  },
+  {
+    title: '35. No waiver',
+    blocks: [
+      `If we do not immediately enforce a provision of these Terms, this does not mean that we have waived our right to enforce it later.`,
+    ],
+  },
+  {
+    title: '36. Entire agreement',
+    blocks: [
+      `These Terms, together with the policies expressly referred to in them, form the agreement between you and ArvoSim concerning the Service.`,
+      `Nothing in this section limits liability for fraud or prevents reliance on mandatory consumer rights.`,
+    ],
+  },
+  {
+    title: '37. Third-party rights',
+    blocks: [
+      `Unless expressly stated otherwise, no person other than you and ARVO LINE LTD has the right to enforce these Terms under the Contracts (Rights of Third Parties) Act 1999.`,
+    ],
+  },
+  {
+    title: '38. Governing law and jurisdiction',
+    blocks: [
+      `These Terms are governed by the laws of England and Wales.`,
+      `If you are a Consumer resident in another part of the United Kingdom or another country, you may also benefit from mandatory protections available under the laws of your place of residence.`,
+      `Consumers may bring proceedings in the courts of England and Wales or, where mandatory law permits, in the courts of the jurisdiction in which they live.`,
+      `Business Users agree that the courts of England and Wales will have exclusive jurisdiction over disputes arising from these Terms or the Service.`,
+    ],
+  },
+  {
+    title: '39. Language',
+    blocks: [
+      `These Terms are prepared in English.`,
+      `Any translation is provided for convenience only. To the extent permitted by applicable law, the English version will prevail in the event of an inconsistency.`,
+    ],
+  },
+  {
+    title: '40. Contact information',
+    blocks: [
+      `Questions about these Terms may be directed to ARVO LINE LTD, company number 17221404, Dept 6800, 196 High Road, Wood Green, London, United Kingdom, N22 8HH.`,
+      `Email: info@arvosim.com. Website: arvosim.com.`,
+    ],
   },
 ];
 
 export default function TermsPage() {
   return (
-    <section className="mx-auto max-w-3xl px-4 py-16 md:py-24">
-      <AnimatedSection>
-        <div className="text-center">
-          <h1 className="text-3xl font-bold text-text md:text-4xl">Terms of Service</h1>
-          <p className="mt-3 text-text-light">Last updated: 1 April 2026</p>
-        </div>
-      </AnimatedSection>
-
-      <AnimatedSection delay={0.1} className="mt-10">
-        <div className="rounded-2xl border border-border bg-white p-6 md:p-10 shadow-sm">
-          <p className="text-text-light leading-relaxed">
-            Please read these Terms of Service carefully before using ArvoSim. These terms govern
-            your access to and use of our eSIM marketplace platform and related services.
-          </p>
-
-          <div className="mt-8 space-y-8">
-            {sections.map((section) => (
-              <div key={section.title}>
-                <h2 className="text-lg font-semibold text-text">{section.title}</h2>
-                <p className="mt-2 text-text-light leading-relaxed">{section.content}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </AnimatedSection>
-    </section>
+    <PolicyPage
+      title="Terms and Conditions"
+      lastUpdated="31 July 2026"
+      intro="These Terms and Conditions govern your access to and use of the ArvoSim website, your ArvoSim Account and Wallet Balance, and the purchase, delivery and use of eSIM data plans and related services made available through arvosim.com."
+      sections={sections}
+    />
   );
 }

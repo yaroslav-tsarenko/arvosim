@@ -40,6 +40,11 @@ export const footerSections: FooterSection[] = [
     links: [
       { label: 'Terms of Service', href: '/terms' },
       { label: 'Privacy Policy', href: '/privacy' },
+      { label: 'Refund & Cancellation', href: '/refund' },
+      { label: 'Cookie Policy', href: '/cookies' },
+      { label: 'Acceptable Use', href: '/acceptable-use' },
+      { label: 'eSIM Delivery', href: '/esim-delivery' },
+      { label: 'Complaints', href: '/complaints' },
     ],
   },
 ];

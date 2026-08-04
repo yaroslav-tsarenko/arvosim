@@ -11,8 +11,8 @@ function escapeHtml(str: string): string {
 }
 
 const FROM = process.env.RESEND_FROM_EMAIL || 'info@arvosim.com';
-const COMPANY = 'ELVORIN LTD';
-const ADDRESS = 'Dept 6946, 196 High Road, Wood Green, London, United Kingdom, N22 8HH';
+const COMPANY = 'ARVO LINE LTD';
+const ADDRESS = 'Dept 6800, 196 High Road, Wood Green, London, United Kingdom, N22 8HH';
 const DOMAIN = 'arvosim.com';
 
 function emailWrapper(title: string, body: string): string {
