@@ -1,4 +1,5 @@
 import { Resend } from 'resend';
+import { generateInvoicePdf, buildInvoiceNumber } from './invoice';
 
 function getResend(): Resend | null {
   const apiKey = process.env.RESEND_API_KEY;
@@ -152,6 +153,9 @@ export async function sendPurchaseEmail(to: string, name: string, items: { name:
   const resend = getResend();
   if (!resend) return false;
 
+  const invoiceDate = new Date();
+  const invoiceNumber = buildInvoiceNumber(invoiceDate);
+
   const itemRows = items.map((item) => `
     <tr>
       <td style="padding: 8px 0; color: #1E293B; font-size: 14px; font-weight: 600;">${escapeHtml(item.name)}</td>
@@ -160,15 +164,29 @@ export async function sendPurchaseEmail(to: string, name: string, items: { name:
     </tr>
   `).join('');
 
+  let pdfBytes: Uint8Array | null = null;
+  try {
+    pdfBytes = await generateInvoicePdf({
+      invoiceNumber,
+      date: invoiceDate,
+      customerName: name,
+      customerEmail: to,
+      items,
+      total,
+    });
+  } catch (err) {
+    console.error('Failed to generate invoice PDF:', err);
+  }
+
   try {
     await resend.emails.send({
       from: `ArvoSim <${FROM}>`,
       to,
-      subject: `Order Confirmation — ${items.length} eSIM${items.length > 1 ? 's' : ''} purchased`,
+      subject: `Your ArvoSim invoice ${invoiceNumber} — £${total.toFixed(2)}`,
       html: emailWrapper('Order Confirmation', `
         <p style="color: #1E293B; font-size: 16px; font-weight: 600; margin: 0 0 16px;">Hi ${escapeHtml(name)},</p>
         <p style="color: #475569; font-size: 14px; line-height: 1.6; margin: 0 0 16px;">
-          Thank you for your purchase! Here's your order summary:
+          Thank you for your purchase! Your invoice <strong>${invoiceNumber}</strong> is attached as a PDF. Here's your order summary:
         </p>
         <table style="width: 100%; border-collapse: collapse;">
           ${itemRows}
@@ -187,6 +205,9 @@ export async function sendPurchaseEmail(to: string, name: string, items: { name:
           Your eSIM QR code will be available in your account dashboard. Scan it with your phone to install.
         </p>
       `),
+      attachments: pdfBytes
+        ? [{ filename: `invoice-${invoiceNumber}.pdf`, content: Buffer.from(pdfBytes) }]
+        : undefined,
     });
     return true;
   } catch (err) {
