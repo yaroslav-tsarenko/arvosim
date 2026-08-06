@@ -3,9 +3,9 @@ import { footerSections } from '@/data/navigation';
 import { PaymentLogos } from '@/components/ui/PaymentLogos';
 import { Logo } from '@/components/ui/Logo';
 
-const companyName = 'ARVO LINE LTD';
-const companyNumber = '17221404';
-const companyAddress = 'Dept 6800, 196 High Road, Wood Green, London, United Kingdom, N22 8HH';
+const companyName = 'ELVORIN LTD';
+const companyNumber = '17344051';
+const companyAddress = 'Dept 6946, 196 High Road, Wood Green, London, United Kingdom, N22 8HH';
 const companyEmail = 'info@arvosim.com';
 
 export function Footer() {

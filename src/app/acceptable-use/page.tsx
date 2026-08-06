@@ -32,8 +32,8 @@ const sections: PolicySection[] = [
         `Privacy Policy; and`,
         `Complaints and Dispute Resolution Policy.`,
       ],
-      `ArvoSim is operated by ARVO LINE LTD, company number 17221404, Dept 6800, 196 High Road, Wood Green, London, United Kingdom, N22 8HH. Email: info@arvosim.com. Website: arvosim.com.`,
-      `In this Policy, "ArvoSim", "we", "us" and "our" refer to ARVO LINE LTD.`,
+      `ArvoSim is operated by ELVORIN LTD, company number 17344051, Dept 6946, 196 High Road, Wood Green, London, United Kingdom, N22 8HH. Email: info@arvosim.com. Website: arvosim.com.`,
+      `In this Policy, "ArvoSim", "we", "us" and "our" refer to ELVORIN LTD.`,
     ],
   },
   {
@@ -905,7 +905,7 @@ const sections: PolicySection[] = [
   {
     title: '43. Contact Information',
     blocks: [
-      `Questions, reports and appeals concerning this Policy may be directed to ARVO LINE LTD, company number 17221404, Dept 6800, 196 High Road, Wood Green, London, United Kingdom, N22 8HH.`,
+      `Questions, reports and appeals concerning this Policy may be directed to ELVORIN LTD, company number 17344051, Dept 6946, 196 High Road, Wood Green, London, United Kingdom, N22 8HH.`,
       `Email: info@arvosim.com. Website: arvosim.com.`,
     ],
   },

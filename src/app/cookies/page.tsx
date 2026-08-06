@@ -4,7 +4,7 @@ const sections: PolicySection[] = [
   {
     title: '1. About this Cookie Policy',
     blocks: [
-      `This Cookie Policy explains how ARVO LINE LTD uses cookies and similar technologies when you visit or use arvosim.com and the ArvoSim Service.`,
+      `This Cookie Policy explains how ELVORIN LTD uses cookies and similar technologies when you visit or use arvosim.com and the ArvoSim Service.`,
       `It explains:`,
       [
         `what cookies and similar technologies are;`,
@@ -16,8 +16,8 @@ const sections: PolicySection[] = [
         `how you can manage or withdraw your choices.`,
       ],
       `This Policy should be read together with the ArvoSim Privacy Policy and Terms and Conditions.`,
-      `ArvoSim is operated by ARVO LINE LTD, company number 17221404, Dept 6800, 196 High Road, Wood Green, London, United Kingdom, N22 8HH. Email: info@arvosim.com. Website: arvosim.com.`,
-      `In this Policy, "ArvoSim", "we", "us" and "our" refer to ARVO LINE LTD.`,
+      `ArvoSim is operated by ELVORIN LTD, company number 17344051, Dept 6946, 196 High Road, Wood Green, London, United Kingdom, N22 8HH. Email: info@arvosim.com. Website: arvosim.com.`,
+      `In this Policy, "ArvoSim", "we", "us" and "our" refer to ELVORIN LTD.`,
     ],
   },
   {
@@ -595,7 +595,7 @@ const sections: PolicySection[] = [
   {
     title: '30. Contact Information',
     blocks: [
-      `Questions about this Policy may be directed to ARVO LINE LTD, company number 17221404, Dept 6800, 196 High Road, Wood Green, London, United Kingdom, N22 8HH.`,
+      `Questions about this Policy may be directed to ELVORIN LTD, company number 17344051, Dept 6946, 196 High Road, Wood Green, London, United Kingdom, N22 8HH.`,
       `Email: info@arvosim.com. Website: arvosim.com.`,
     ],
   },
@@ -606,7 +606,7 @@ export default function CookiesPage() {
     <PolicyPage
       title="Cookie Policy"
       lastUpdated="31 July 2026"
-      intro="This Cookie Policy explains how ARVO LINE LTD uses cookies and similar technologies when you visit or use arvosim.com and the ArvoSim Service, which categories we use, when consent is required, and how you can manage or withdraw your choices."
+      intro="This Cookie Policy explains how ELVORIN LTD uses cookies and similar technologies when you visit or use arvosim.com and the ArvoSim Service, which categories we use, when consent is required, and how you can manage or withdraw your choices."
       sections={sections}
     />
   );

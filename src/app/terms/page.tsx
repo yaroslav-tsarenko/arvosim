@@ -5,8 +5,8 @@ const sections: PolicySection[] = [
     title: '1. About these Terms',
     blocks: [
       `These Terms and Conditions govern your access to and use of the ArvoSim website, your ArvoSim Account and Wallet Balance, and the purchase, delivery and use of eSIM data plans and related services made available through arvosim.com.`,
-      `The ArvoSim service is operated by ARVO LINE LTD, company number 17221404, of Dept 6800, 196 High Road, Wood Green, London, United Kingdom, N22 8HH. Email: info@arvosim.com.`,
-      `In these Terms, "ArvoSim", "we", "us" and "our" refer to ARVO LINE LTD.`,
+      `The ArvoSim service is operated by ELVORIN LTD, company number 17344051, of Dept 6946, 196 High Road, Wood Green, London, United Kingdom, N22 8HH. Email: info@arvosim.com.`,
+      `In these Terms, "ArvoSim", "we", "us" and "our" refer to ELVORIN LTD.`,
       `Please read these Terms carefully before creating an Account, adding funds to your Wallet Balance or ordering an eSIM Plan. By using the Service, you confirm that you have read, understood and agreed to these Terms.`,
       `If you do not agree to these Terms, you must not use the Service.`,
     ],
@@ -496,7 +496,7 @@ const sections: PolicySection[] = [
   {
     title: '26. Intellectual property',
     blocks: [
-      `The Website, ArvoSim brand, software, interfaces, text, graphics, databases, design, logos and other original content made available through the Service are owned by or licensed to ARVO LINE LTD and are protected by applicable intellectual property laws.`,
+      `The Website, ArvoSim brand, software, interfaces, text, graphics, databases, design, logos and other original content made available through the Service are owned by or licensed to ELVORIN LTD and are protected by applicable intellectual property laws.`,
       `We grant you a limited, personal, non-exclusive, non-transferable and revocable right to access and use the Service for its intended purpose in accordance with these Terms.`,
       `You may not, without prior written permission:`,
       [
@@ -648,7 +648,7 @@ const sections: PolicySection[] = [
   {
     title: '37. Third-party rights',
     blocks: [
-      `Unless expressly stated otherwise, no person other than you and ARVO LINE LTD has the right to enforce these Terms under the Contracts (Rights of Third Parties) Act 1999.`,
+      `Unless expressly stated otherwise, no person other than you and ELVORIN LTD has the right to enforce these Terms under the Contracts (Rights of Third Parties) Act 1999.`,
     ],
   },
   {
@@ -670,7 +670,7 @@ const sections: PolicySection[] = [
   {
     title: '40. Contact information',
     blocks: [
-      `Questions about these Terms may be directed to ARVO LINE LTD, company number 17221404, Dept 6800, 196 High Road, Wood Green, London, United Kingdom, N22 8HH.`,
+      `Questions about these Terms may be directed to ELVORIN LTD, company number 17344051, Dept 6946, 196 High Road, Wood Green, London, United Kingdom, N22 8HH.`,
       `Email: info@arvosim.com. Website: arvosim.com.`,
     ],
   },

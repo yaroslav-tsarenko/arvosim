@@ -4,7 +4,7 @@ const sections: PolicySection[] = [
   {
     title: '1. About this Privacy Policy',
     blocks: [
-      `This Privacy Policy explains how ARVO LINE LTD collects, uses, stores, shares and protects personal data when you:`,
+      `This Privacy Policy explains how ELVORIN LTD collects, uses, stores, shares and protects personal data when you:`,
       [
         `visit arvosim.com;`,
         `create or use an ArvoSim Account;`,
@@ -15,9 +15,9 @@ const sections: PolicySection[] = [
         `otherwise interact with ArvoSim.`,
       ],
       `This Policy also explains your rights and how you may raise a privacy request or complaint.`,
-      `ArvoSim is operated by ARVO LINE LTD, company number 17221404, of Dept 6800, 196 High Road, Wood Green, London, United Kingdom, N22 8HH. Email: info@arvosim.com.`,
-      `For the purposes of applicable data protection law, ARVO LINE LTD is generally the controller of the personal data described in this Policy.`,
-      `In this Policy, "ArvoSim", "we", "us" and "our" refer to ARVO LINE LTD.`,
+      `ArvoSim is operated by ELVORIN LTD, company number 17344051, of Dept 6946, 196 High Road, Wood Green, London, United Kingdom, N22 8HH. Email: info@arvosim.com.`,
+      `For the purposes of applicable data protection law, ELVORIN LTD is generally the controller of the personal data described in this Policy.`,
+      `In this Policy, "ArvoSim", "we", "us" and "our" refer to ELVORIN LTD.`,
     ],
   },
   {
@@ -346,7 +346,7 @@ const sections: PolicySection[] = [
   {
     title: '33. Contact Information',
     blocks: [
-      `Questions, privacy requests and data protection complaints may be directed to ARVO LINE LTD, company number 17221404, Dept 6800, 196 High Road, Wood Green, London, United Kingdom, N22 8HH.`,
+      `Questions, privacy requests and data protection complaints may be directed to ELVORIN LTD, company number 17344051, Dept 6946, 196 High Road, Wood Green, London, United Kingdom, N22 8HH.`,
       `Email: info@arvosim.com. Website: arvosim.com.`,
     ],
   },
@@ -357,7 +357,7 @@ export default function PrivacyPage() {
     <PolicyPage
       title="Privacy Policy"
       lastUpdated="31 July 2026"
-      intro="This Privacy Policy explains how ARVO LINE LTD collects, uses, stores, shares and protects personal data when you use arvosim.com, your ArvoSim Account, Wallet Balance and eSIM Plans. It also explains your rights and how you may raise a privacy request or complaint."
+      intro="This Privacy Policy explains how ELVORIN LTD collects, uses, stores, shares and protects personal data when you use arvosim.com, your ArvoSim Account, Wallet Balance and eSIM Plans. It also explains your rights and how you may raise a privacy request or complaint."
       sections={sections}
     />
   );
