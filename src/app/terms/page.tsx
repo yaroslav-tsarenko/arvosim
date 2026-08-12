@@ -5,7 +5,7 @@ const sections: PolicySection[] = [
     title: '1. About these Terms',
     blocks: [
       `These Terms and Conditions govern your access to and use of the ArvoSim website, your ArvoSim Account and Wallet Balance, and the purchase, delivery and use of eSIM data plans and related services made available through arvosim.com.`,
-      `The ArvoSim service is operated by ELVORIN LTD, company number 17344051, of Dept 6946, 196 High Road, Wood Green, London, United Kingdom, N22 8HH. Email: info@arvosim.com.`,
+      `The ArvoSim service is operated by ELVORIN LTD, company number 17344051, of Suite 709, Avicenna House, 258–262 Romford Road, London, E7 9HZ, United Kingdom. Email: info@arvosim.com.`,
       `In these Terms, "ArvoSim", "we", "us" and "our" refer to ELVORIN LTD.`,
       `Please read these Terms carefully before creating an Account, adding funds to your Wallet Balance or ordering an eSIM Plan. By using the Service, you confirm that you have read, understood and agreed to these Terms.`,
       `If you do not agree to these Terms, you must not use the Service.`,
@@ -670,7 +670,7 @@ const sections: PolicySection[] = [
   {
     title: '40. Contact information',
     blocks: [
-      `Questions about these Terms may be directed to ELVORIN LTD, company number 17344051, Dept 6946, 196 High Road, Wood Green, London, United Kingdom, N22 8HH.`,
+      `Questions about these Terms may be directed to ELVORIN LTD, company number 17344051, Suite 709, Avicenna House, 258–262 Romford Road, London, E7 9HZ, United Kingdom.`,
       `Email: info@arvosim.com. Website: arvosim.com.`,
     ],
   },

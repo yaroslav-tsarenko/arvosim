@@ -237,7 +237,7 @@ export default function SignUpPage() {
                   <label htmlFor="street" className="mb-1.5 block text-sm font-medium text-text">Street</label>
                   <div className="relative">
                     <MapPin className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-text-light" />
-                    <input id="street" type="text" required value={street} onChange={(e) => setStreet(e.target.value)} placeholder="196 High Road" className={inputCls} />
+                    <input id="street" type="text" required value={street} onChange={(e) => setStreet(e.target.value)} placeholder="258–262 Romford Road" className={inputCls} />
                   </div>
                 </div>
                 <div>
@@ -255,7 +255,7 @@ export default function SignUpPage() {
                 </div>
                 <div>
                   <label htmlFor="postalCode" className="mb-1.5 block text-sm font-medium text-text">Postal code</label>
-                  <input id="postalCode" type="text" required value={postalCode} onChange={(e) => setPostalCode(e.target.value)} placeholder="N22 8HH" className={inputNoPadCls} />
+                  <input id="postalCode" type="text" required value={postalCode} onChange={(e) => setPostalCode(e.target.value)} placeholder="E7 9HZ" className={inputNoPadCls} />
                 </div>
               </>
             )}

@@ -13,7 +13,7 @@ function escapeHtml(str: string): string {
 
 const FROM = process.env.RESEND_FROM_EMAIL || 'info@arvosim.com';
 const COMPANY = 'ELVORIN LTD';
-const ADDRESS = 'Dept 6946, 196 High Road, Wood Green, London, United Kingdom, N22 8HH';
+const ADDRESS = 'Suite 709, Avicenna House, 258–262 Romford Road, London, E7 9HZ, United Kingdom';
 const DOMAIN = 'arvosim.com';
 
 function emailWrapper(title: string, body: string): string {

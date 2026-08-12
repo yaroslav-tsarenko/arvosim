@@ -16,7 +16,7 @@ const sections: PolicySection[] = [
         `how you can manage or withdraw your choices.`,
       ],
       `This Policy should be read together with the ArvoSim Privacy Policy and Terms and Conditions.`,
-      `ArvoSim is operated by ELVORIN LTD, company number 17344051, Dept 6946, 196 High Road, Wood Green, London, United Kingdom, N22 8HH. Email: info@arvosim.com. Website: arvosim.com.`,
+      `ArvoSim is operated by ELVORIN LTD, company number 17344051, Suite 709, Avicenna House, 258–262 Romford Road, London, E7 9HZ, United Kingdom. Email: info@arvosim.com. Website: arvosim.com.`,
       `In this Policy, "ArvoSim", "we", "us" and "our" refer to ELVORIN LTD.`,
     ],
   },
@@ -595,7 +595,7 @@ const sections: PolicySection[] = [
   {
     title: '30. Contact Information',
     blocks: [
-      `Questions about this Policy may be directed to ELVORIN LTD, company number 17344051, Dept 6946, 196 High Road, Wood Green, London, United Kingdom, N22 8HH.`,
+      `Questions about this Policy may be directed to ELVORIN LTD, company number 17344051, Suite 709, Avicenna House, 258–262 Romford Road, London, E7 9HZ, United Kingdom.`,
       `Email: info@arvosim.com. Website: arvosim.com.`,
     ],
   },

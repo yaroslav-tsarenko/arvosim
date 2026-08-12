@@ -5,7 +5,7 @@ import { Logo } from '@/components/ui/Logo';
 
 const companyName = 'ELVORIN LTD';
 const companyNumber = '17344051';
-const companyAddress = 'Dept 6946, 196 High Road, Wood Green, London, United Kingdom, N22 8HH';
+const companyAddress = 'Suite 709, Avicenna House, 258–262 Romford Road, London, E7 9HZ, United Kingdom';
 const companyEmail = 'info@arvosim.com';
 
 export function Footer() {
