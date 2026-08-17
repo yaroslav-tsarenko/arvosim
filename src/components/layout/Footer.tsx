@@ -5,7 +5,8 @@ import { Logo } from '@/components/ui/Logo';
 
 const companyName = 'ELVORIN LTD';
 const companyNumber = '17344051';
-const companyAddress = 'Suite 709, Avicenna House, 258–262 Romford Road, London, E7 9HZ, United Kingdom';
+const registeredAddress = 'Dept 6946, 196 High Road, Wood Green, London, N22 8HH, United Kingdom';
+const operationalAddress = 'Suite 709, Avicenna House, 258–262 Romford Road, London, E7 9HZ, United Kingdom';
 const companyEmail = 'info@arvosim.com';
 
 export function Footer() {
@@ -48,7 +49,8 @@ export function Footer() {
             <div className="space-y-1 text-xs text-text-light">
               <p className="font-semibold text-text">{companyName}</p>
               <p>Company number: {companyNumber}</p>
-              <p>{companyAddress}</p>
+              <p>Registered address: {registeredAddress}</p>
+              <p>Operational address: {operationalAddress}</p>
               <p>Email: <a href={`mailto:${companyEmail}`} className="hover:text-primary transition-colors">{companyEmail}</a></p>
             </div>
             <div className="flex flex-col items-start gap-3 sm:flex-row sm:items-center">
