@@ -8,7 +8,7 @@ const sections: PolicySection[] = [
       [
         `visit arvosim.com;`,
         `create or use an ArvoSim Account;`,
-        `add funds to your Wallet Balance;`,
+        `add funds to your Balance;`,
         `purchase or use an eSIM Plan;`,
         `communicate with our support team;`,
         `subscribe to marketing communications; or`,
@@ -41,7 +41,7 @@ const sections: PolicySection[] = [
       [
         `the ArvoSim Website;`,
         `your ArvoSim Account;`,
-        `Wallet Top-Ups and Wallet transactions;`,
+        `Balance Top-Ups and Balance transactions;`,
         `eSIM Orders and digital delivery;`,
         `installation and activation support;`,
         `customer service communications;`,
@@ -68,7 +68,7 @@ const sections: PolicySection[] = [
       `5.1 Account and identity data — we may collect full name; Account username or identifier; email address; password in encrypted or hashed form; country or region; preferred language; preferred currency; Account creation date; Account status; communication preferences; and information used to verify Account ownership.`,
       `5.2 Contact data — we may collect email address; billing contact details; correspondence address where required; telephone number where voluntarily provided; support contact preferences; and details contained in communications with us.`,
       `5.3 Order and eSIM data — we may collect Order number; selected destination; selected eSIM Plan; data allowance; validity period; Plan price; date and time of Order; Order status; delivery status; activation status; Plan expiry information; refund or cancellation status; eSIM or provisioning identifiers; QR-code delivery records; network or provider reference numbers; and limited usage information required to determine whether an eSIM has connected or consumed data. We do not use the content of your internet traffic for advertising purposes.`,
-      `5.4 Wallet and transaction data — we may collect Wallet Top-Up amount; Wallet Balance; Wallet transaction history; currency; payment date and time; transaction status; payment reference; refunds; payment reversals; Chargebacks; promotional credits; closing-balance calculations; and invoice or receipt information.`,
+      `5.4 Balance and transaction data — we may collect Balance Top-Up amount; Balance; Balance transaction history; currency; payment date and time; transaction status; payment reference; refunds; payment reversals; Chargebacks; promotional credits; closing-balance calculations; and invoice or receipt information.`,
       `5.5 Payment and authentication data — payments are processed through third-party payment providers. We do not store your full payment-card number or card security code on ArvoSim systems. We may receive limited payment information such as card brand; last four digits of the card; expiry month and year; tokenised payment reference; payment status; transaction identifier; card issuer country; billing country; authorisation result; 3D Secure authentication result; fraud or risk indicators; and refund or Chargeback information.`,
       `5.6 Device and technical data — we may collect IP address; browser type and version; device type; device manufacturer and model; operating system and version; language and time-zone settings; screen or browser characteristics; device identifiers made available to the Service; approximate location derived from IP address; referring page or website; pages viewed; session information; login records; error logs; security logs; cookie identifiers; and information necessary to investigate eSIM compatibility, installation or activation issues. We do not normally collect precise GPS location through the Website.`,
       `5.7 Network and service-usage data — to deliver and support an eSIM, we may receive or process limited information from connectivity providers or mobile network operators, including eSIM provisioning status; activation status; connection time; destination network; technical network identifiers; data-consumption records; remaining allowance; Plan expiry status; fault or error codes; and other information needed to provide, troubleshoot or verify the Service.`,
@@ -89,7 +89,7 @@ const sections: PolicySection[] = [
   {
     title: '7. How We Collect Personal Data',
     blocks: [
-      `7.1 Directly from you — for example, when you create an Account; update Account information; complete a Wallet Top-Up; place an eSIM Order; request support; submit a refund request; request Account closure; make a complaint; exercise a data protection right; or subscribe to marketing.`,
+      `7.1 Directly from you — for example, when you create an Account; update Account information; complete a Balance Top-Up; place an eSIM Order; request support; submit a refund request; request Account closure; make a complaint; exercise a data protection right; or subscribe to marketing.`,
       `7.2 Automatically — we may collect technical and usage data when you visit the Website; sign in; navigate between pages; submit a transaction; interact with emails; use cookies or similar technologies; or encounter a technical error.`,
       `7.3 From service providers and business partners — we may receive personal data from payment providers; card issuers and card networks; 3D Secure authentication providers; eSIM and connectivity providers; mobile network operators; hosting and infrastructure providers; email-delivery providers; analytics providers; fraud-prevention providers; and customer support systems.`,
       `7.4 From public or official sources — where necessary for legal compliance, security or fraud prevention, we may receive information from Companies House; sanctions lists; regulatory or law-enforcement sources; courts; public records; or other legally available sources.`,
@@ -99,13 +99,13 @@ const sections: PolicySection[] = [
     title: '8. Purposes and Lawful Bases',
     blocks: [
       `We process personal data only where we have an appropriate lawful basis. The lawful basis depends on the purpose and context of the processing.`,
-      `8.1 Providing the Account and Service — to register and maintain your Account, authenticate access, display your Wallet Balance, process eSIM Orders, deliver QR codes, provide installation information, activate or manage eSIM Plans, provide support, process cancellations and refunds, and close Accounts. Lawful basis: performance of a contract or steps taken at your request before entering into a contract.`,
-      `8.2 Processing Wallet Top-Ups and payments — to process Top-Ups, perform 3D Secure authentication, record Wallet credit, issue receipts, process refunds, investigate payment errors, handle reversals and Chargebacks, and maintain accurate financial records. Lawful bases: performance of a contract, compliance with legal obligations and our legitimate interests in operating secure and accurate payment systems.`,
+      `8.1 Providing the Account and Service — to register and maintain your Account, authenticate access, display your Balance, process eSIM Orders, deliver QR codes, provide installation information, activate or manage eSIM Plans, provide support, process cancellations and refunds, and close Accounts. Lawful basis: performance of a contract or steps taken at your request before entering into a contract.`,
+      `8.2 Processing Balance Top-Ups and payments — to process Top-Ups, perform 3D Secure authentication, record Balance credit, issue receipts, process refunds, investigate payment errors, handle reversals and Chargebacks, and maintain accurate financial records. Lawful bases: performance of a contract, compliance with legal obligations and our legitimate interests in operating secure and accurate payment systems.`,
       `8.3 Delivering and managing eSIMs — to issue the correct eSIM Plan, send the QR code, verify delivery, enable provisioning, check activation and usage, troubleshoot connectivity, determine whether an eSIM is unused, investigate faults, and provide replacements or refunds. Lawful bases: performance of a contract and our legitimate interests in providing, supporting and improving the Service.`,
       `8.4 Customer support and complaints — to respond to enquiries, troubleshoot issues, investigate complaints, reconsider decisions, keep users informed, provide remedies, and maintain records of the outcome. Lawful bases: performance of a contract, compliance with legal obligations and our legitimate interests in resolving disputes and improving customer service.`,
       `8.5 Fraud prevention and security — to detect unauthorised payments, prevent Account takeover, identify suspicious activity, protect users and the Service, investigate abuse, enforce applicable policies, secure systems, and establish, exercise or defend legal claims. Lawful bases: our legitimate interests and compliance with legal obligations where applicable.`,
       `8.6 Legal, tax and regulatory compliance — to maintain accounting and tax records, respond to lawful requests, comply with court orders, comply with sanctions and other legal restrictions, meet consumer-protection obligations, investigate legal claims, and demonstrate compliance. Lawful basis: compliance with legal obligations and, where relevant, our legitimate interests in protecting and exercising legal rights.`,
-      `8.7 Service administration — to send Order confirmations, QR-code delivery emails, Wallet confirmations, security alerts, Plan-related notices, support responses, refund updates, material policy changes and other essential service communications. These are transactional communications and are not direct marketing.`,
+      `8.7 Service administration — to send Order confirmations, QR-code delivery emails, Balance confirmations, security alerts, Plan-related notices, support responses, refund updates, material policy changes and other essential service communications. These are transactional communications and are not direct marketing.`,
       `8.8 Website security and performance — to keep the Website operational, detect errors, prevent malicious activity, maintain Account sessions, measure performance, diagnose outages, protect infrastructure, and improve reliability. Lawful bases: our legitimate interests and, where required for non-essential technologies, consent.`,
       `8.9 Analytics and improvement — subject to applicable cookie and consent requirements, we may process usage and interaction data to understand how the Website is used, identify navigation problems, measure feature performance, improve the user experience, develop new features, and assess demand for destinations and Plans.`,
       `8.10 Direct marketing — we may process contact and preference data to send marketing concerning ArvoSim products, offers or travel connectivity. Lawful bases: consent or, where legally permitted, legitimate interests and the applicable customer soft opt-in rules. You may unsubscribe at any time.`,
@@ -114,15 +114,15 @@ const sections: PolicySection[] = [
   {
     title: '9. When Providing Data Is Required',
     blocks: [
-      `Certain information is required to create an Account, process a Wallet Top-Up, place an Order or deliver an eSIM.`,
-      `If you do not provide required information, we may be unable to create or maintain the Account; authenticate access; process payment; credit the Wallet; fulfil an Order; deliver the QR code; investigate a fault; process a refund; or comply with a legal obligation.`,
+      `Certain information is required to create an Account, process a Balance Top-Up, place an Order or deliver an eSIM.`,
+      `If you do not provide required information, we may be unable to create or maintain the Account; authenticate access; process payment; credit the Balance; fulfil an Order; deliver the QR code; investigate a fault; process a refund; or comply with a legal obligation.`,
       `Optional information will be identified where practical.`,
     ],
   },
   {
     title: '10. Legitimate Interests',
     blocks: [
-      `Where we rely on legitimate interests, those interests may include operating and improving ArvoSim; protecting Accounts and transactions; preventing fraud and abuse; maintaining accurate Wallet records; securing systems; responding to users; enforcing our Terms; managing business risk; recovering amounts lawfully owed; defending legal claims; preventing duplicate or fraudulent refunds; and understanding Website performance.`,
+      `Where we rely on legitimate interests, those interests may include operating and improving ArvoSim; protecting Accounts and transactions; preventing fraud and abuse; maintaining accurate Balance records; securing systems; responding to users; enforcing our Terms; managing business risk; recovering amounts lawfully owed; defending legal claims; preventing duplicate or fraudulent refunds; and understanding Website performance.`,
       `Before relying on legitimate interests, we consider whether the processing is necessary; whether a less intrusive method is available; the nature of the data; the user's reasonable expectations; the potential effect on the user; and appropriate safeguards.`,
       `You may have the right to object to processing based on legitimate interests.`,
     ],
@@ -138,7 +138,7 @@ const sections: PolicySection[] = [
   {
     title: '12. Payments and 3D Secure',
     blocks: [
-      `Wallet Top-Ups may be subject to payment authentication, including 3D Secure.`,
+      `Balance Top-Ups may be subject to payment authentication, including 3D Secure.`,
       `During payment processing card details are entered into or transmitted to the payment provider's secure payment environment; the payment provider and card issuer may process authentication and fraud-prevention data; ArvoSim may receive the authentication result, payment status and limited payment metadata; the card issuer may request a one-time password, banking-app approval or biometric confirmation; and a transaction may be delayed or declined where authentication or fraud checks are unsuccessful.`,
       `ArvoSim does not control the authentication method chosen by your card issuer. Full card numbers and card security codes are not stored on ArvoSim systems.`,
     ],
@@ -155,7 +155,7 @@ const sections: PolicySection[] = [
   {
     title: '14. Cookies and Similar Technologies',
     blocks: [
-      `We use strictly necessary technologies to operate the Website; keep users signed in; secure Accounts; prevent fraud; maintain Wallet sessions; remember essential selections; and complete transactions.`,
+      `We use strictly necessary technologies to operate the Website; keep users signed in; secure Accounts; prevent fraud; maintain Balance sessions; remember essential selections; and complete transactions.`,
       `Subject to consent requirements, we may also use technologies for preferences; analytics; performance measurement; error monitoring; and service improvement.`,
       `Non-essential cookies and similar technologies will not be used before valid consent where consent is legally required. You may withdraw or change your cookie preferences through the available consent tool.`,
       `Further information is provided in the Cookie Policy.`,
@@ -166,7 +166,7 @@ const sections: PolicySection[] = [
     blocks: [
       `We may send marketing emails only where permitted by applicable law. We may rely on your consent; or the customer soft opt-in where we obtained your details during a sale or genuine sales enquiry, market similar products or services, and provided a clear opportunity to opt out.`,
       `Every marketing email will provide an unsubscribe method. You may also object by contacting info@arvosim.com.`,
-      `Unsubscribing from marketing will not prevent us from sending essential communications concerning your Account; Wallet transactions; Orders; eSIM delivery; security; refunds; complaints; or changes affecting the Service.`,
+      `Unsubscribing from marketing will not prevent us from sending essential communications concerning your Account; Balance transactions; Orders; eSIM delivery; security; refunds; complaints; or changes affecting the Service.`,
       `We may retain limited suppression information after an unsubscribe request so that we do not contact you again for marketing.`,
     ],
   },
@@ -224,7 +224,7 @@ const sections: PolicySection[] = [
     blocks: [
       `We retain personal data only for as long as reasonably necessary for the purpose for which it was collected, including legal, accounting, security and dispute-resolution requirements.`,
       `20.1 Account information is normally retained while the Account remains active. After Account closure, relevant Account data may be retained for a limited period where required for financial reconciliation, fraud prevention, complaint handling, legal claims, enforcement of our Terms or compliance with law.`,
-      `20.2 Orders, Wallet transactions and payment records may generally be retained for at least six years from the end of the relevant financial year or for another period required by applicable tax, accounting or legal obligations.`,
+      `20.2 Orders, Balance transactions and payment records may generally be retained for at least six years from the end of the relevant financial year or for another period required by applicable tax, accounting or legal obligations.`,
       `20.3 eSIM provisioning and usage records may be retained for as long as reasonably required to provide the Plan, verify usage, resolve technical issues, process refunds, investigate fraud, handle disputes and meet provider or legal requirements.`,
       `20.4 Support and complaint records may be retained for a reasonable period after the matter is closed.`,
       `20.5 Fraud and security records may be retained where necessary to protect Accounts, prevent repeated abuse, investigate incidents, establish legal claims and meet payment-provider or legal requirements.`,
@@ -268,7 +268,7 @@ const sections: PolicySection[] = [
   {
     title: '25. Children',
     blocks: [
-      `The Service is intended for persons aged 18 or over. We do not knowingly permit children to create Accounts or complete Wallet Top-Ups.`,
+      `The Service is intended for persons aged 18 or over. We do not knowingly permit children to create Accounts or complete Balance Top-Ups.`,
       `If we become aware that personal data has been collected from a child in circumstances where it should not have been collected, we will take appropriate steps to delete or restrict that information.`,
       `A parent or guardian who believes that a child has provided personal data may contact info@arvosim.com.`,
     ],
@@ -277,7 +277,7 @@ const sections: PolicySection[] = [
     title: '26. Account Closure and Data Deletion',
     blocks: [
       `An Account cannot currently be closed through a self-service function. To request Account closure, email info@arvosim.com from the email address associated with the Account.`,
-      `Before closure, we may need to verify Account ownership; complete or cancel pending Orders; return eligible Wallet funds; resolve disputes; investigate suspected fraud; and retain information required by law.`,
+      `Before closure, we may need to verify Account ownership; complete or cancel pending Orders; return eligible Balance funds; resolve disputes; investigate suspected fraud; and retain information required by law.`,
       `Account closure does not mean that every record will be immediately deleted. We may retain information where necessary for tax and accounting, payment reconciliation, fraud prevention, Chargeback handling, complaint resolution, legal claims, regulatory compliance or another lawful purpose.`,
       `Data that is no longer required will be deleted, anonymised or securely restricted.`,
     ],
@@ -357,7 +357,7 @@ export default function PrivacyPage() {
     <PolicyPage
       title="Privacy Policy"
       lastUpdated="31 July 2026"
-      intro="This Privacy Policy explains how ELVORIN LTD collects, uses, stores, shares and protects personal data when you use arvosim.com, your ArvoSim Account, Wallet Balance and eSIM Plans. It also explains your rights and how you may raise a privacy request or complaint."
+      intro="This Privacy Policy explains how ELVORIN LTD collects, uses, stores, shares and protects personal data when you use arvosim.com, your ArvoSim Account, Balance and eSIM Plans. It also explains your rights and how you may raise a privacy request or complaint."
       sections={sections}
     />
   );

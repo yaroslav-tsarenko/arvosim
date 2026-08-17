@@ -100,7 +100,7 @@ export async function generateInvoicePdf(data: InvoiceData): Promise<Uint8Array>
   right('Billed to', metaX - 96, y - 30, 9, bold, GREY);
   right(data.customerEmail, metaX, y - 30, 9, font, DARK);
   right('Payment method', metaX - 96, y - 45, 9, bold, GREY);
-  right('Wallet balance', metaX, y - 45, 9, font, DARK);
+  right('Balance', metaX, y - 45, 9, font, DARK);
 
   y -= 96;
 

@@ -64,7 +64,7 @@ const sections: PolicySection[] = [
       [
         `authenticate users;`,
         `protect Accounts;`,
-        `operate the Wallet;`,
+        `operate the Balance;`,
         `maintain a transaction session;`,
         `remember cookie choices; and`,
         `save Website preferences.`,
@@ -94,7 +94,7 @@ const sections: PolicySection[] = [
         `authenticate the user;`,
         `protect against cross-site request forgery;`,
         `detect fraud or security incidents;`,
-        `maintain Wallet and checkout functionality;`,
+        `maintain Balance and checkout functionality;`,
         `remember items or selections during a transaction;`,
         `route communications correctly;`,
         `balance Website traffic;`,
@@ -167,7 +167,7 @@ const sections: PolicySection[] = [
       `The following register describes the technologies intended for the current ArvoSim implementation.`,
       `The exact cookie names and durations used in production must match this register. Where a third-party provider generates dynamic names, the live cookie-preference centre may provide additional current details.`,
       `arvosim_session — Provider: ArvoSim. Category: Strictly Necessary. Purpose: Authenticates the user and maintains a secure Account session. Typical duration: Session, or up to 30 days where a persistent login is expressly selected. Consent: Not required where strictly necessary.`,
-      `arvosim_csrf — Provider: ArvoSim. Category: Strictly Necessary. Purpose: Helps protect forms, Account actions, Wallet operations and Orders against cross-site request forgery. Typical duration: Session. Consent: Not required.`,
+      `arvosim_csrf — Provider: ArvoSim. Category: Strictly Necessary. Purpose: Helps protect forms, Account actions, Balance operations and Orders against cross-site request forgery. Typical duration: Session. Consent: Not required.`,
       `arvosim_cookie_preferences — Provider: ArvoSim or the consent-management provider. Category: Strictly Necessary. Purpose: Records whether the user accepted, rejected or customised optional technologies. Typical duration: Up to 6 months. Consent: Not required for the sole purpose of remembering the choice.`,
       `arvosim_currency — Provider: ArvoSim. Category: Preference / Appearance. Purpose: Remembers the user's selected display currency, such as GBP, EUR or USD. Typical duration: Up to 6 months. Consent: May be exempt where used solely for this preference and an objection method is available.`,
       `arvosim_language — Provider: ArvoSim. Category: Preference / Appearance. Purpose: Remembers the user's selected Website language where multilingual functionality is provided. Typical duration: Up to 6 months. Consent: May be exempt where applicable conditions are satisfied.`,
@@ -184,7 +184,7 @@ const sections: PolicySection[] = [
   {
     title: '8. Payment and 3D Secure Technologies',
     blocks: [
-      `When you add funds to your Wallet Balance, a Payment Provider, card issuer or 3D Secure provider may use cookies or similar technologies to:`,
+      `When you add funds to your Balance, a Payment Provider, card issuer or 3D Secure provider may use cookies or similar technologies to:`,
       [
         `maintain the secure payment session;`,
         `authenticate the transaction;`,
@@ -193,7 +193,7 @@ const sections: PolicySection[] = [
         `apply transaction-risk controls; and`,
         `complete the payment requested by you.`,
       ],
-      `These technologies may be strictly necessary to complete the Wallet Top-Up.`,
+      `These technologies may be strictly necessary to complete the Balance Top-Up.`,
       `The Payment Provider may also use information independently for purposes described in its own privacy or cookie notice.`,
       `ArvoSim must not permit a Payment Provider to use payment-session information for unrelated advertising through ArvoSim without obtaining any required consent.`,
     ],
@@ -247,7 +247,7 @@ const sections: PolicySection[] = [
       [
         `browsing available eSIM Plans;`,
         `creating or accessing an Account;`,
-        `maintaining a Wallet Balance;`,
+        `maintaining a Balance;`,
         `placing an Order;`,
         `receiving an eSIM; or`,
         `contacting support,`,
@@ -309,7 +309,7 @@ const sections: PolicySection[] = [
       `Blocking all cookies may prevent parts of the Service from functioning, including:`,
       [
         `Account login;`,
-        `Wallet functionality;`,
+        `Balance functionality;`,
         `secure checkout;`,
         `payment authentication;`,
         `fraud-prevention controls; and`,
@@ -436,7 +436,7 @@ const sections: PolicySection[] = [
         `a technical issue occurred.`,
       ],
       `Where required, consent or another appropriate legal basis will be used.`,
-      `Users may unsubscribe from marketing emails, but essential communications relating to Accounts, Wallet transactions, Orders, security and support may still be sent.`,
+      `Users may unsubscribe from marketing emails, but essential communications relating to Accounts, Balance transactions, Orders, security and support may still be sent.`,
     ],
   },
   {
@@ -580,7 +580,7 @@ const sections: PolicySection[] = [
       `We may update this Cookie Policy to reflect changes to:`,
       [
         `Website functionality;`,
-        `the Wallet or checkout;`,
+        `the Balance or checkout;`,
         `payment providers;`,
         `analytics or support tools;`,
         `cookies or similar technologies;`,

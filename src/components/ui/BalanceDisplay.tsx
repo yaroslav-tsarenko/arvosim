@@ -5,10 +5,10 @@ import Link from 'next/link';
 import { useApp } from '@/hooks/AppProvider';
 import { formatPrice } from '@/lib/currency';
 
-export function WalletBalance() {
-  const { balance, walletLoaded, currency } = useApp();
+export function BalanceDisplay() {
+  const { balance, balanceLoaded, currency } = useApp();
 
-  if (!walletLoaded) return null;
+  if (!balanceLoaded) return null;
 
   return (
     <Link

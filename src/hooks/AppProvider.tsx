@@ -20,7 +20,7 @@ export interface PurchaseRecord {
 
 interface AppContextType {
   balance: number;
-  walletLoaded: boolean;
+  balanceLoaded: boolean;
   topUp: (amount: number) => Promise<boolean>;
   spend: (amount: number) => Promise<boolean>;
   canAfford: (amount: number) => boolean;
@@ -54,7 +54,7 @@ export function AppProvider({ children }: { children: ReactNode }) {
   const auth = useAuth();
 
   const [balance, setBalance] = useState(0);
-  const [walletLoaded, setWalletLoaded] = useState(false);
+  const [balanceLoaded, setBalanceLoaded] = useState(false);
   const [purchases, setPurchases] = useState<PurchaseRecord[]>([]);
   const [purchasesLoaded, setPurchasesLoaded] = useState(false);
 
@@ -65,7 +65,7 @@ export function AppProvider({ children }: { children: ReactNode }) {
       const data = await res.json();
       if (res.ok) setBalance(data.balance);
     } catch { /* ignore */ }
-    setWalletLoaded(true);
+    setBalanceLoaded(true);
   }, [auth.isAuthenticated]);
 
   const refreshPurchases = useCallback(async () => {
@@ -81,11 +81,11 @@ export function AppProvider({ children }: { children: ReactNode }) {
   useEffect(() => {
     if (auth.isAuthenticated && auth.user) {
       setBalance(auth.user.balance);
-      setWalletLoaded(true);
+      setBalanceLoaded(true);
       refreshPurchases();
     } else if (auth.loaded) {
       setBalance(0);
-      setWalletLoaded(true);
+      setBalanceLoaded(true);
       setPurchases([]);
       setPurchasesLoaded(true);
     }
@@ -139,7 +139,7 @@ export function AppProvider({ children }: { children: ReactNode }) {
     <AppContext.Provider
       value={{
         balance,
-        walletLoaded,
+        balanceLoaded,
         topUp,
         spend,
         canAfford,

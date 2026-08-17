@@ -17,7 +17,7 @@ const sections: PolicySection[] = [
       [
         `Terms and Conditions;`,
         `Refund and Cancellation Policy;`,
-        `Payment and Wallet Policy; and`,
+        `Payment and Balance Policy; and`,
         `Privacy Policy.`,
       ],
       `ArvoSim is operated by ELVORIN LTD, company number 17344051, Suite 709, Avicenna House, 258–262 Romford Road, London, E7 9HZ, United Kingdom. Email: info@arvosim.com. Website: arvosim.com.`,
@@ -41,19 +41,19 @@ const sections: PolicySection[] = [
   {
     title: '3. How eSIM Orders Are Paid For',
     blocks: [
-      `ArvoSim operates a Wallet-only purchasing model.`,
+      `ArvoSim operates a Balance-only purchasing model.`,
       `To order an eSIM, you must:`,
       [
         `create or access your ArvoSim Account;`,
-        `add funds to your Wallet Balance using an accepted payment method;`,
+        `add funds to your Balance using an accepted payment method;`,
         `select the required eSIM Plan;`,
         `confirm that your device is compatible;`,
         `confirm the destination, coverage, data allowance, validity period and price;`,
-        `ensure that your Wallet Balance is sufficient; and`,
+        `ensure that your Balance is sufficient; and`,
         `submit the Order.`,
       ],
       `An eSIM cannot be purchased directly using a payment card at checkout.`,
-      `The price of the selected eSIM Plan will be deducted or reserved from your Wallet Balance when the Order is submitted.`,
+      `The price of the selected eSIM Plan will be deducted or reserved from your Balance when the Order is submitted.`,
     ],
   },
   {
@@ -63,7 +63,7 @@ const sections: PolicySection[] = [
       `After an Order is submitted, a member of our team may need to:`,
       [
         `verify the Order information;`,
-        `confirm that sufficient Wallet Balance is available;`,
+        `confirm that sufficient Balance is available;`,
         `check the availability of the selected Plan;`,
         `prepare or obtain the relevant eSIM profile;`,
         `perform payment, fraud or Account checks;`,
@@ -146,7 +146,7 @@ const sections: PolicySection[] = [
         `verification of your identity;`,
         `confirmation of Account ownership;`,
         `the relevant Order reference;`,
-        `information about the Wallet top-up; or`,
+        `information about the Balance top-up; or`,
         `other reasonable security information.`,
       ],
       `We will not knowingly send an eSIM QR code to an unverified third party.`,
@@ -171,7 +171,7 @@ const sections: PolicySection[] = [
       [
         `a materially equivalent replacement Plan;`,
         `an alternative Plan for the same destination;`,
-        `restoration of the full Plan price to your Wallet Balance; or`,
+        `restoration of the full Plan price to your Balance; or`,
         `another remedy required by applicable law.`,
       ],
       `We will not substitute a materially different Plan without informing you and obtaining your agreement.`,
@@ -427,7 +427,7 @@ const sections: PolicySection[] = [
         `send the QR code to a verified replacement email address;`,
         `issue a replacement eSIM;`,
         `offer an equivalent Plan;`,
-        `restore the full Plan price to the Wallet Balance; or`,
+        `restore the full Plan price to the Balance; or`,
         `provide another remedy required by applicable law.`,
       ],
     ],
@@ -437,7 +437,7 @@ const sections: PolicySection[] = [
     blocks: [
       `You should order the eSIM sufficiently in advance of your planned travel.`,
       `If we fail to deliver the eSIM within the stated indicative period and the delay materially affects the purpose of the Order, you should contact us as soon as possible.`,
-      `Where the eSIM has not been delivered or used, you may request cancellation and restoration of the full Plan price to your Wallet Balance.`,
+      `Where the eSIM has not been delivered or used, you may request cancellation and restoration of the full Plan price to your Balance.`,
       `If we expressly agreed to deliver by a specific deadline and fail to meet that deadline, any remedies available under applicable law will remain unaffected.`,
       `We do not reimburse replacement connectivity, roaming, accommodation, missed transport or other consequential expenses unless such liability cannot legally be excluded or the expense was expressly approved by us in advance.`,
     ],
@@ -455,7 +455,7 @@ const sections: PolicySection[] = [
         `the reason for the request.`,
       ],
       `Because Orders are manually processed, we cannot guarantee that a cancellation message will be reviewed before delivery if fulfilment is already underway.`,
-      `If the Order has not yet been accepted or fulfilled, the full Plan price will be restored to the Wallet Balance.`,
+      `If the Order has not yet been accepted or fulfilled, the full Plan price will be restored to the Balance.`,
     ],
   },
   {
@@ -474,7 +474,7 @@ const sections: PolicySection[] = [
       `Such action will be taken within a reasonable time and without significant inconvenience, taking into account the nature of travel connectivity and the date on which the eSIM is required.`,
       `If correction or replacement is impossible, disproportionate or not completed within a reasonable time, we may provide:`,
       [
-        `restoration of the full or appropriate portion of the Plan price to the Wallet Balance;`,
+        `restoration of the full or appropriate portion of the Plan price to the Balance;`,
         `a full or proportionate refund where required;`,
         `an equivalent replacement Plan; or`,
         `another remedy required by applicable law.`,

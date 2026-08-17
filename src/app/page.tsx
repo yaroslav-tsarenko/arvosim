@@ -353,10 +353,10 @@ export default function HomePage() {
                   <CreditCard className="h-6 w-6 text-primary" />
                 </div>
                 <h2 className="text-2xl font-bold text-text md:text-3xl">
-                  Simple Wallet Top-Up
+                  Simple Balance Top-Up
                 </h2>
                 <p className="mt-3 text-text-light leading-relaxed">
-                  Add funds to your ArvoSim wallet and purchase plans instantly. Your balance never expires, and you can top up anytime with a minimum of just {formatPrice(10, currency)}.
+                  Add funds to your ArvoSim balance and purchase plans instantly. Your balance never expires, and you can top up anytime with a minimum of just {formatPrice(10, currency)}.
                 </p>
                 <ul className="mt-5 space-y-3">
                   {[
@@ -380,7 +380,7 @@ export default function HomePage() {
                 <div className="rounded-2xl border border-border bg-surface p-6 text-center">
                   <p className="text-sm font-medium text-text-light">Your balance</p>
                   <p className="mt-1 text-4xl font-extrabold text-text">{formatPrice(isAuthenticated ? balance : 0, currency)}</p>
-                  <p className="mt-2 text-xs text-text-light">{isAuthenticated ? 'Your current wallet balance' : 'Sign in and top up to start purchasing plans'}</p>
+                  <p className="mt-2 text-xs text-text-light">{isAuthenticated ? 'Your current balance' : 'Sign in and top up to start purchasing plans'}</p>
                   <Link
                     href="/top-up"
                     className="mt-5 inline-flex w-full items-center justify-center gap-2 rounded-xl bg-primary py-3 font-semibold text-white transition-colors hover:bg-primary-dark"

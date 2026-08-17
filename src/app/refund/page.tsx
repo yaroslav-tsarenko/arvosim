@@ -4,21 +4,21 @@ const sections: PolicySection[] = [
   {
     title: '1. About this Policy',
     blocks: [
-      `This Refund and Cancellation Policy explains when an ArvoSim Order may be cancelled and when a refund, replacement, Wallet adjustment or other remedy may be available.`,
+      `This Refund and Cancellation Policy explains when an ArvoSim Order may be cancelled and when a refund, replacement, Balance adjustment or other remedy may be available.`,
       `This Policy applies to:`,
       [
-        `eSIM Plans purchased using Wallet Balance;`,
-        `Wallet top-ups made using an accepted payment card;`,
+        `eSIM Plans purchased using Balance;`,
+        `Balance top-ups made using an accepted payment card;`,
         `Orders that are delayed, unavailable or not delivered;`,
         `faulty, invalid or incorrectly supplied eSIMs;`,
         `duplicate or unauthorised transactions; and`,
-        `unused Wallet Balance when an Account is permanently closed.`,
+        `unused Balance when an Account is permanently closed.`,
       ],
       `This Policy forms part of the ArvoSim Terms and Conditions and should be read together with our:`,
       [
         `Terms and Conditions;`,
         `eSIM Delivery and Activation Policy;`,
-        `Payment and Wallet Policy;`,
+        `Payment and Balance Policy;`,
         `Privacy Policy; and`,
         `Complaints and Dispute Resolution Policy.`,
       ],
@@ -32,33 +32,33 @@ const sections: PolicySection[] = [
       `For the purposes of this Policy:`,
       [
         `Account means a registered ArvoSim user account.`,
-        `Cash-Funded Balance means Wallet Balance created through a successful payment made by the user, excluding promotional or complimentary credit.`,
+        `Cash-Funded Balance means Balance created through a successful payment made by the user, excluding promotional or complimentary credit.`,
         `eSIM means an electronic SIM profile supplied digitally through a QR code or equivalent installation information.`,
         `eSIM Plan or Plan means a prepaid mobile data package purchased through ArvoSim.`,
-        `Order means a request to purchase an eSIM Plan using Wallet Balance.`,
-        `Promotional Credit means Wallet credit provided without a corresponding payment, including bonuses, referral rewards, promotional balances and goodwill credits.`,
+        `Order means a request to purchase an eSIM Plan using Balance.`,
+        `Promotional Credit means Balance credit provided without a corresponding payment, including bonuses, referral rewards, promotional balances and goodwill credits.`,
         `Used eSIM means an eSIM that network or provider records show has connected to a Supported Network and consumed any amount of mobile data.`,
-        `Wallet Balance means prepaid Account credit that may be used to purchase eligible eSIM Plans through ArvoSim.`,
+        `Balance means prepaid Account credit that may be used to purchase eligible eSIM Plans through ArvoSim.`,
       ],
     ],
   },
   {
-    title: '3. Wallet-Only Purchase Model',
+    title: '3. Balance-Only Purchase Model',
     blocks: [
-      `ArvoSim operates a Wallet-only purchasing model.`,
+      `ArvoSim operates a Balance-only purchasing model.`,
       `This means that:`,
       [
-        `the user first adds funds to their Wallet Balance;`,
-        `the user then purchases an eSIM Plan using that Wallet Balance; and`,
+        `the user first adds funds to their Balance;`,
+        `the user then purchases an eSIM Plan using that Balance; and`,
         `the eSIM Plan is not charged directly to the payment card.`,
       ],
       `As a result, different refund rules apply to:`,
       [
         `the cancellation or refund of an eSIM Order;`,
-        `the reversal of a Wallet top-up; and`,
-        `the return of unused Wallet Balance when an Account is permanently closed.`,
+        `the reversal of a Balance top-up; and`,
+        `the return of unused Balance when an Account is permanently closed.`,
       ],
-      `Unless this Policy expressly states otherwise, an approved refund for an eSIM Plan will be returned to the Wallet Balance from which the Plan was purchased.`,
+      `Unless this Policy expressly states otherwise, an approved refund for an eSIM Plan will be returned to the Balance from which the Plan was purchased.`,
     ],
   },
   {
@@ -74,7 +74,7 @@ const sections: PolicySection[] = [
         `a clear request to cancel.`,
       ],
       `ArvoSim Orders are processed manually. We therefore cannot guarantee that a cancellation request will be reviewed before delivery if fulfilment is already underway.`,
-      `If the Order has not yet been accepted or fulfilled, the full Plan price will be restored to your Wallet Balance without an administrative deduction.`,
+      `If the Order has not yet been accepted or fulfilled, the full Plan price will be restored to your Balance without an administrative deduction.`,
     ],
   },
   {
@@ -106,7 +106,7 @@ const sections: PolicySection[] = [
         `the user provides any reasonable information required to verify non-use; and`,
         `the request is not fraudulent, abusive or part of repeated misuse of the refund process.`,
       ],
-      `The full Plan price will be restored to the Wallet Balance without an administrative or cancellation fee.`,
+      `The full Plan price will be restored to the Balance without an administrative or cancellation fee.`,
       `This voluntary refund may be available even if:`,
       [
         `the QR code has already been delivered;`,
@@ -153,7 +153,7 @@ const sections: PolicySection[] = [
         `the same technical problem continued after reasonable troubleshooting or replacement; or`,
         `applicable law requires another remedy.`,
       ],
-      `Where the user received part of the purchased benefit, a proportionate Wallet refund or price reduction may be offered.`,
+      `Where the user received part of the purchased benefit, a proportionate Balance refund or price reduction may be offered.`,
       `Where the user received no meaningful benefit, a full refund may be appropriate.`,
     ],
   },
@@ -184,7 +184,7 @@ const sections: PolicySection[] = [
         `provide the QR code to a verified replacement email address;`,
         `issue a replacement eSIM;`,
         `offer an equivalent Plan; or`,
-        `restore the full Plan price to the Wallet Balance.`,
+        `restore the full Plan price to the Balance.`,
       ],
       `If the Order cannot be fulfilled, the full Plan price will be restored without an administrative deduction.`,
     ],
@@ -221,11 +221,11 @@ const sections: PolicySection[] = [
       [
         `a materially equivalent Plan;`,
         `another Plan for the same destination;`,
-        `restoration of the full Plan price to the Wallet Balance; or`,
+        `restoration of the full Plan price to the Balance; or`,
         `another remedy required by applicable law.`,
       ],
       `We will not substitute a materially different Plan without your agreement.`,
-      `You may reject a proposed replacement and request restoration of the full Plan price to your Wallet Balance.`,
+      `You may reject a proposed replacement and request restoration of the full Plan price to your Balance.`,
     ],
   },
   {
@@ -304,7 +304,7 @@ const sections: PolicySection[] = [
   {
     title: '15. Incorrect Plan or Destination',
     blocks: [
-      `If you purchase the wrong Plan or destination, you may request a full refund to the Wallet Balance under the voluntary 30-day refund right, provided that the eSIM remains unused.`,
+      `If you purchase the wrong Plan or destination, you may request a full refund to the Balance under the voluntary 30-day refund right, provided that the eSIM remains unused.`,
       `If the eSIM has already connected and consumed data, a refund will not normally be available merely because:`,
       [
         `the wrong destination was selected;`,
@@ -398,7 +398,7 @@ const sections: PolicySection[] = [
     title: '20. Duplicate Orders',
     blocks: [
       `If you accidentally purchase the same or a substantially identical Plan more than once, contact us promptly.`,
-      `Where the duplicate eSIM remains unused, we will normally restore the duplicate Plan price to the Wallet Balance.`,
+      `Where the duplicate eSIM remains unused, we will normally restore the duplicate Plan price to the Balance.`,
       `If both eSIMs have been activated and used, we will assess the request based on:`,
       [
         `the amount of data consumed;`,
@@ -409,29 +409,29 @@ const sections: PolicySection[] = [
     ],
   },
   {
-    title: '21. Wallet Top-Ups',
+    title: '21. Balance Top-Ups',
     blocks: [
-      `Wallet top-ups are not ordinarily refundable or withdrawable while an Account remains active.`,
+      `Balance top-ups are not ordinarily refundable or withdrawable while an Account remains active.`,
       `Exceptions may apply where:`,
       [
         `the payment was duplicated;`,
         `the wrong amount was charged because of a technical error;`,
         `the payment was unauthorised;`,
-        `the Wallet credit was not provided;`,
-        `the payment was accepted but the Wallet service cannot be provided;`,
+        `the Balance credit was not provided;`,
+        `the payment was accepted but the Balance service cannot be provided;`,
         `applicable law requires a refund; or`,
         `the Account is permanently closed in accordance with Section 24.`,
       ],
-      `The non-refundable nature of ordinary Wallet top-ups does not allow ArvoSim to retain money resulting from an established payment error, unauthorised transaction or legal entitlement to reimbursement.`,
+      `The non-refundable nature of ordinary Balance top-ups does not allow ArvoSim to retain money resulting from an established payment error, unauthorised transaction or legal entitlement to reimbursement.`,
     ],
   },
   {
-    title: '22. Accidental Wallet Top-Ups',
+    title: '22. Accidental Balance Top-Ups',
     blocks: [
-      `If you make an accidental Wallet top-up, contact us promptly before spending any part of the credited balance.`,
+      `If you make an accidental Balance top-up, contact us promptly before spending any part of the credited balance.`,
       `We may consider a reversal where:`,
       [
-        `the Wallet credit remains completely unused;`,
+        `the Balance credit remains completely unused;`,
         `the request is made promptly;`,
         `the original payment can be identified and reversed;`,
         `no eSIM Order has been placed using the credit;`,
@@ -439,13 +439,13 @@ const sections: PolicySection[] = [
         `reversal is operationally and legally possible.`,
       ],
       `Any such reversal is discretionary unless required by applicable law.`,
-      `Once the Wallet credit has been used, the ordinary eSIM refund rules will apply to the relevant Order.`,
+      `Once the Balance credit has been used, the ordinary eSIM refund rules will apply to the relevant Order.`,
     ],
   },
   {
     title: '23. Unauthorised Payments',
     blocks: [
-      `If you believe that a Wallet top-up was made without your permission, contact:`,
+      `If you believe that a Balance top-up was made without your permission, contact:`,
       [
         `your card issuer or payment provider; and`,
         `ArvoSim at info@arvosim.com.`,
@@ -460,11 +460,11 @@ const sections: PolicySection[] = [
       ],
       `Do not send full card details, passwords or authentication codes by email.`,
       `We may temporarily restrict the Account while investigating the transaction.`,
-      `If the payment is confirmed as unauthorised, we may reverse the corresponding Wallet credit and process any required refund through the relevant payment channel.`,
+      `If the payment is confirmed as unauthorised, we may reverse the corresponding Balance credit and process any required refund through the relevant payment channel.`,
     ],
   },
   {
-    title: '24. Refund of Wallet Balance on Account Closure',
+    title: '24. Refund of Balance on Account Closure',
     blocks: [
       `An Account cannot currently be closed through a self-service function.`,
       `To request permanent Account closure, email info@arvosim.com from the email address associated with the Account.`,
@@ -474,7 +474,7 @@ const sections: PolicySection[] = [
         `complete or cancel pending Orders;`,
         `resolve refunds or payment disputes;`,
         `investigate suspected unauthorised activity;`,
-        `identify the source of Wallet funds; and`,
+        `identify the source of Balance funds; and`,
         `deduct any amount validly owed because of a reversed payment or chargeback.`,
       ],
       `Following final Account closure, the verified unused Cash-Funded Balance will be returned without an administrative deduction.`,
@@ -543,7 +543,7 @@ const sections: PolicySection[] = [
         `the Order history;`,
         `delivery records;`,
         `activation and usage records;`,
-        `Wallet transactions;`,
+        `Balance transactions;`,
         `support correspondence;`,
         `technical-provider information;`,
         `evidence supplied by the user; and`,
@@ -557,8 +557,8 @@ const sections: PolicySection[] = [
     title: '28. Refund Method',
     blocks: [
       `The refund method depends on the type of transaction.`,
-      `28.1 eSIM Plan refund — Because eSIM Plans are purchased using Wallet Balance, an approved voluntary eSIM refund will normally be restored to the Wallet Balance.`,
-      `28.2 Wallet top-up refund — Where a Wallet top-up qualifies for refund, the amount will normally be returned to the original payment method.`,
+      `28.1 eSIM Plan refund — Because eSIM Plans are purchased using Balance, an approved voluntary eSIM refund will normally be restored to the Balance.`,
+      `28.2 Balance top-up refund — Where a Balance top-up qualifies for refund, the amount will normally be returned to the original payment method.`,
       `28.3 Account closure — Verified unused Cash-Funded Balance will normally be returned to the original payment method or another agreed method where the original route is unavailable.`,
       `28.4 Mandatory monetary refunds — Where applicable law entitles a Consumer to a monetary refund rather than Account credit, we will provide the refund using the method required by law or another method expressly agreed with the Consumer.`,
       `We will not impose an administrative fee on an approved full refund.`,
@@ -568,7 +568,7 @@ const sections: PolicySection[] = [
     title: '29. Processing Times',
     blocks: [
       `We will process approved refunds without undue delay.`,
-      `Wallet Balance adjustments will normally be completed within five business days after approval.`,
+      `Balance adjustments will normally be completed within five business days after approval.`,
       `Where a payment-card refund is required:`,
       [
         `ArvoSim will normally initiate it within five business days after approval;`,
@@ -581,7 +581,7 @@ const sections: PolicySection[] = [
   {
     title: '30. Currency Conversion',
     blocks: [
-      `Wallet Balance and eSIM Plan transactions are maintained in GBP.`,
+      `Balance and eSIM Plan transactions are maintained in GBP.`,
       `Where a payment-card refund is made, we will refund the applicable GBP amount.`,
       `If the original card payment involved currency conversion:`,
       [
@@ -596,7 +596,7 @@ const sections: PolicySection[] = [
   {
     title: '31. Chargebacks and Payment Disputes',
     blocks: [
-      `If you recognise a transaction but believe that an Order, Wallet credit or refund was handled incorrectly, please contact info@arvosim.com before initiating a chargeback.`,
+      `If you recognise a transaction but believe that an Order, Balance credit or refund was handled incorrectly, please contact info@arvosim.com before initiating a chargeback.`,
       `This allows us to:`,
       [
         `investigate the issue;`,
@@ -606,8 +606,8 @@ const sections: PolicySection[] = [
         `avoid unnecessary restrictions on the Account.`,
       ],
       `Nothing in this Policy prevents you from exercising rights available through your card issuer, payment provider or applicable law.`,
-      `Where a chargeback is initiated, we may temporarily suspend the corresponding Wallet Balance or Account while the matter is investigated.`,
-      `If a payment is reversed after its Wallet credit has been spent, we may deduct the reversed amount from the Wallet Balance or require repayment of the resulting negative balance.`,
+      `Where a chargeback is initiated, we may temporarily suspend the corresponding Balance or Account while the matter is investigated.`,
+      `If a payment is reversed after its Balance credit has been spent, we may deduct the reversed amount from the Balance or require repayment of the resulting negative balance.`,
     ],
   },
   {
@@ -674,7 +674,7 @@ const sections: PolicySection[] = [
       `We may update this Policy to reflect changes to:`,
       [
         `the Service;`,
-        `Wallet functionality;`,
+        `Balance functionality;`,
         `eSIM delivery;`,
         `payment-provider requirements;`,
         `refund processes;`,
@@ -699,7 +699,7 @@ export default function RefundPage() {
     <PolicyPage
       title="Refund and Cancellation Policy"
       lastUpdated="31 July 2026"
-      intro="This Refund and Cancellation Policy explains when an ArvoSim Order may be cancelled and when a refund, replacement, Wallet adjustment or other remedy may be available."
+      intro="This Refund and Cancellation Policy explains when an ArvoSim Order may be cancelled and when a refund, replacement, Balance adjustment or other remedy may be available."
       sections={sections}
     />
   );

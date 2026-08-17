@@ -39,7 +39,7 @@ const helpCategories = [
     title: 'Billing & Payments',
     icon: CreditCard,
     topics: [
-      'How the wallet balance works',
+      'How the balance works',
       'Accepted payment methods',
       'Understanding your invoice',
       'Requesting a refund for unused plans',

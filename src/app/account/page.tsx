@@ -90,7 +90,7 @@ export default function AccountPage() {
           <div className="space-y-4">
             <div className="rounded-2xl border border-primary/20 bg-primary/5 p-6">
               <Wallet className="h-8 w-8 text-primary mb-3" />
-              <p className="text-sm text-text-light">Wallet Balance</p>
+              <p className="text-sm text-text-light">Balance</p>
               <p className="text-3xl font-bold text-text mt-1">{formatPrice(balance, currency)}</p>
               <Link href="/top-up" className="mt-4 flex items-center justify-center gap-2 rounded-xl bg-primary py-2.5 text-sm font-semibold text-white hover:bg-primary-dark transition-colors">Top Up Balance <ArrowRight className="h-4 w-4" /></Link>
             </div>

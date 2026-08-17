@@ -19,7 +19,7 @@ import { useApp } from '@/hooks/AppProvider';
 import { formatPrice } from '@/lib/currency';
 
 export default function CheckoutPage() {
-  const { cartItems, cartTotal, cartCount, balance, walletLoaded, canAfford, clearCart, currency, buyItems, isAuthenticated } = useApp();
+  const { cartItems, cartTotal, cartCount, balance, balanceLoaded, canAfford, clearCart, currency, buyItems, isAuthenticated } = useApp();
   const [processing, setProcessing] = useState(false);
   const [completed, setCompleted] = useState(false);
   const [error, setError] = useState('');
@@ -42,7 +42,7 @@ export default function CheckoutPage() {
   }
 
   // Empty cart redirect
-  if (!completed && walletLoaded && cartCount === 0) {
+  if (!completed && balanceLoaded && cartCount === 0) {
     return (
       <div className="mx-auto max-w-2xl px-4 py-20 text-center sm:px-6">
         <AnimatedSection>
@@ -96,7 +96,7 @@ export default function CheckoutPage() {
             </div>
 
             <p className="text-sm text-text-light mb-6">
-              Remaining wallet balance: <span className="font-semibold text-text">{formatPrice(balance, currency)}</span>
+              Remaining balance: <span className="font-semibold text-text">{formatPrice(balance, currency)}</span>
             </p>
 
             <div className="flex flex-col gap-3 sm:flex-row sm:justify-center">
@@ -182,20 +182,20 @@ export default function CheckoutPage() {
         <div className="mt-6 rounded-2xl border border-border bg-white p-6">
           <div className="flex items-center gap-2 mb-4">
             <Wallet className="h-5 w-5 text-primary" />
-            <h2 className="font-semibold text-text">Pay with Wallet</h2>
+            <h2 className="font-semibold text-text">Pay with Balance</h2>
           </div>
 
           <div className="flex items-center justify-between rounded-xl bg-surface p-4 mb-4">
-            <span className="text-text-light">Your wallet balance</span>
+            <span className="text-text-light">Your balance</span>
             <span className={`text-xl font-bold ${affordable ? 'text-primary' : 'text-danger'}`}>
-              {walletLoaded ? formatPrice(balance, currency) : '...'}
+              {balanceLoaded ? formatPrice(balance, currency) : '...'}
             </span>
           </div>
 
           {affordable ? (
             <>
               <p className="text-sm text-text-light mb-4">
-                {formatPrice(cartTotal, currency)} will be deducted from your wallet. Remaining balance after purchase:{' '}
+                {formatPrice(cartTotal, currency)} will be deducted from your balance. Remaining balance after purchase:{' '}
                 <span className="font-semibold text-text">{formatPrice(balance - cartTotal, currency)}</span>
               </p>
               <button
@@ -229,7 +229,7 @@ export default function CheckoutPage() {
                     You need {formatPrice(cartTotal - balance, currency)} more to complete this purchase.
                   </p>
                   <p className="text-sm text-text-light">
-                    Top up your wallet and come back to finish checkout.
+                    Top up your balance and come back to finish checkout.
                   </p>
                 </div>
               </div>
@@ -238,7 +238,7 @@ export default function CheckoutPage() {
                 className="mt-4 flex w-full items-center justify-center gap-2 rounded-xl bg-primary py-3 font-semibold text-white transition-colors hover:bg-primary-dark"
               >
                 <Wallet className="h-4 w-4" />
-                Top Up Wallet
+                Top Up Balance
                 <ArrowRight className="h-4 w-4" />
               </Link>
             </div>

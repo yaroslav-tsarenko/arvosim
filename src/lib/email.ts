@@ -54,7 +54,7 @@ export async function sendWelcomeEmail(to: string, name: string): Promise<boolea
         </p>
         <ul style="color: #475569; font-size: 14px; line-height: 1.8; margin: 0 0 16px; padding-left: 20px;">
           <li>Browse destinations and find the perfect data plan</li>
-          <li>Top up your wallet to purchase plans instantly</li>
+          <li>Top up your balance to purchase plans instantly</li>
           <li>Install your eSIM before your trip — just scan a QR code</li>
         </ul>
         <div style="text-align: center; margin: 24px 0;">
@@ -119,11 +119,11 @@ export async function sendTopUpEmail(to: string, name: string, amount: number, n
     await resend.emails.send({
       from: `ArvoSim <${FROM}>`,
       to,
-      subject: 'Wallet Top-Up Confirmation',
-      html: emailWrapper('Wallet Top-Up Confirmed', `
+      subject: 'Balance Top-Up Confirmation',
+      html: emailWrapper('Balance Top-Up Confirmed', `
         <p style="color: #1E293B; font-size: 16px; font-weight: 600; margin: 0 0 16px;">Hi ${escapeHtml(name)},</p>
         <p style="color: #475569; font-size: 14px; line-height: 1.6; margin: 0 0 16px;">
-          Your wallet has been topped up successfully.
+          Your balance has been topped up successfully.
         </p>
         <table style="width: 100%; border-collapse: collapse; margin: 16px 0;">
           <tr>
@@ -195,7 +195,7 @@ export async function sendPurchaseEmail(to: string, name: string, items: { name:
             <td style="padding: 12px 0 4px; color: #1E293B; font-size: 14px; font-weight: 700; text-align: right;">£${total.toFixed(2)}</td>
           </tr>
         </table>
-        <p style="color: #94A3B8; font-size: 12px; margin: 12px 0 0;">Remaining wallet balance: £${remainingBalance.toFixed(2)}</p>
+        <p style="color: #94A3B8; font-size: 12px; margin: 12px 0 0;">Remaining balance: £${remainingBalance.toFixed(2)}</p>
         <div style="text-align: center; margin: 24px 0;">
           <a href="https://${DOMAIN}/account/esims" style="display: inline-block; background: #059669; color: white; padding: 12px 24px; border-radius: 8px; text-decoration: none; font-weight: 600; font-size: 14px;">
             View My eSIMs

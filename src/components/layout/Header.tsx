@@ -8,7 +8,7 @@ import { countries } from '@/data/countries';
 import { regions } from '@/data/countries';
 import { SearchBar } from '@/components/ui/SearchBar';
 import { CurrencySelector } from '@/components/ui/CurrencySelector';
-import { WalletBalance } from '@/components/ui/WalletBalance';
+import { BalanceDisplay } from '@/components/ui/BalanceDisplay';
 import { Logo } from '@/components/ui/Logo';
 import { useApp } from '@/hooks/AppProvider';
 
@@ -95,7 +95,7 @@ export function Header() {
             <div className="hidden sm:block">
               <CurrencySelector />
             </div>
-            <WalletBalance />
+            <BalanceDisplay />
             <Link
               href="/cart"
               className="relative rounded-lg p-2 text-text-light hover:bg-surface hover:text-text transition-colors"

@@ -30,7 +30,7 @@ export const generalFaqs: FAQ[] = [
     answer: 'Our eSIM plans are data-only. You can make voice and video calls using apps like WhatsApp, Telegram, FaceTime, or Zoom over your data connection.',
   },
   {
-    question: 'How does the wallet balance work?',
+    question: 'How does the balance work?',
     answer: 'You top up your account balance with your preferred amount (minimum £10). Your balance is stored in GBP and can be used to purchase any eSIM plan. If you switch display currency, prices are shown in your selected currency but charged from your GBP balance.',
   },
   {

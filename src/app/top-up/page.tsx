@@ -11,7 +11,7 @@ import { formatPrice } from '@/lib/currency';
 import { topUpOptions } from '@/data/navigation';
 
 export default function TopUpPage() {
-  const { balance, walletLoaded, topUp, currency, isAuthenticated } = useApp();
+  const { balance, balanceLoaded, topUp, currency, isAuthenticated } = useApp();
   const [selectedAmount, setSelectedAmount] = useState<number | null>(null);
   const [customAmount, setCustomAmount] = useState('');
   const [useCustom, setUseCustom] = useState(false);
@@ -54,7 +54,7 @@ export default function TopUpPage() {
       return;
     }
     if (!isAuthenticated) {
-      setError('Please sign in to top up your wallet.');
+      setError('Please sign in to top up your balance.');
       return;
     }
     const rawCard = cardNumber.replace(/\s/g, '');
@@ -93,7 +93,7 @@ export default function TopUpPage() {
             </div>
             <h2 className="text-2xl font-bold text-text mb-2">Payment Successful</h2>
             <p className="text-text-light mb-2">
-              {formatPrice(effectiveAmount, currency)} has been added to your wallet.
+              {formatPrice(effectiveAmount, currency)} has been added to your balance.
             </p>
             <p className="text-lg font-semibold text-text mb-8">
               New balance: {formatPrice(balance, currency)}
@@ -131,7 +131,7 @@ export default function TopUpPage() {
       <AnimatedSection>
         <SectionHeader
           title="Top Up Your Balance"
-          subtitle="Add funds to your ArvoSim wallet and purchase eSIMs instantly."
+          subtitle="Add funds to your ArvoSim balance and purchase eSIMs instantly."
         />
       </AnimatedSection>
 
@@ -144,7 +144,7 @@ export default function TopUpPage() {
               <span className="text-sm font-medium text-text-light">Current Balance</span>
             </div>
             <span className="text-4xl font-bold text-primary">
-              {walletLoaded ? formatPrice(balance, currency) : '...'}
+              {balanceLoaded ? formatPrice(balance, currency) : '...'}
             </span>
           </div>
         </div>

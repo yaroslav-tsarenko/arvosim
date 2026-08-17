@@ -8,7 +8,7 @@ const sections: PolicySection[] = [
       [
         `the ArvoSim Website;`,
         `an ArvoSim Account;`,
-        `the ArvoSim Wallet;`,
+        `the ArvoSim Balance;`,
         `an eSIM or eSIM Plan;`,
         `mobile data connectivity supplied through ArvoSim;`,
         `customer support; or`,
@@ -20,13 +20,13 @@ const sections: PolicySection[] = [
         `prevent fraud and unlawful activity;`,
         `protect mobile networks and technical systems;`,
         `preserve fair access to connectivity;`,
-        `prevent misuse of Wallet funds, refunds and promotions; and`,
+        `prevent misuse of Balance funds, refunds and promotions; and`,
         `ensure that the Service is used only for its intended purpose.`,
       ],
       `This Policy forms part of the ArvoSim Terms and Conditions and should be read together with our:`,
       [
         `Terms and Conditions;`,
-        `Payment and Wallet Policy;`,
+        `Payment and Balance Policy;`,
         `eSIM Delivery and Activation Policy;`,
         `Refund and Cancellation Policy;`,
         `Privacy Policy; and`,
@@ -120,7 +120,7 @@ const sections: PolicySection[] = [
         `operate as an unauthorised connectivity reseller;`,
         `package the Service into another commercial offering;`,
         `advertise an ArvoSim eSIM for resale;`,
-        `transfer Wallet Balance to customers or third parties; or`,
+        `transfer Balance to customers or third parties; or`,
         `use ArvoSim branding to suggest an authorised reseller relationship.`,
       ],
       `Permitting a family member, colleague or travelling companion to use a personal hotspot does not by itself constitute resale, provided that:`,
@@ -151,7 +151,7 @@ const sections: PolicySection[] = [
       [
         `your Account has been compromised;`,
         `your email Account has been accessed without permission;`,
-        `an unknown person has used your Wallet Balance;`,
+        `an unknown person has used your Balance;`,
         `an eSIM QR code has been exposed; or`,
         `an unauthorised transaction has occurred.`,
       ],
@@ -203,12 +203,12 @@ const sections: PolicySection[] = [
     ],
   },
   {
-    title: '9. Wallet Abuse',
+    title: '9. Balance Abuse',
     blocks: [
-      `You must not use the Wallet to:`,
+      `You must not use the Balance to:`,
       [
         `transfer value between unrelated persons;`,
-        `sell or exchange Wallet Balance;`,
+        `sell or exchange Balance;`,
         `conceal the origin of funds;`,
         `process payments for another business;`,
         `evade payment controls;`,
@@ -216,9 +216,9 @@ const sections: PolicySection[] = [
         `exploit exchange-rate differences;`,
         `obtain cash through false Account-closure requests;`,
         `repeatedly Top-Up and request withdrawal without genuine use of the Service; or`,
-        `use the Wallet for any purpose other than purchasing eligible ArvoSim services.`,
+        `use the Balance for any purpose other than purchasing eligible ArvoSim services.`,
       ],
-      `The Wallet is closed-loop Account credit and must not be treated as a general payment or money-transfer service.`,
+      `The Balance is closed-loop Account credit and must not be treated as a general payment or money-transfer service.`,
     ],
   },
   {
@@ -230,7 +230,7 @@ const sections: PolicySection[] = [
         `provide false screenshots or technical information;`,
         `delete an eSIM and falsely claim that it was never delivered;`,
         `request a refund from ArvoSim and simultaneously seek a Chargeback for the same amount;`,
-        `retain Wallet credit after the related payment has been reversed;`,
+        `retain Balance credit after the related payment has been reversed;`,
         `falsely report an authorised payment as unauthorised;`,
         `make repeated purchases primarily to obtain refunds;`,
         `use a Plan and then claim a change-of-mind refund; or`,
@@ -269,7 +269,7 @@ const sections: PolicySection[] = [
         `another Account;`,
         `administrative systems;`,
         `databases;`,
-        `Wallet records;`,
+        `Balance records;`,
         `payment systems;`,
         `eSIM provisioning systems;`,
         `network infrastructure;`,
@@ -619,7 +619,7 @@ const sections: PolicySection[] = [
         `interfere with checkout;`,
         `manipulate prices;`,
         `exploit an obvious error;`,
-        `alter Wallet records;`,
+        `alter Balance records;`,
         `circumvent security controls;`,
         `obstruct another user's access;`,
         `disable technical protections; or`,
@@ -674,7 +674,7 @@ const sections: PolicySection[] = [
       `Where we reasonably suspect a breach, we may review information available to us, including:`,
       [
         `Account records;`,
-        `Wallet transactions;`,
+        `Balance transactions;`,
         `payment status;`,
         `Chargebacks;`,
         `Order history;`,
@@ -715,7 +715,7 @@ const sections: PolicySection[] = [
         `delay an Order;`,
         `request verification;`,
         `restrict a payment method;`,
-        `freeze disputed Wallet funds;`,
+        `freeze disputed Balance funds;`,
         `restrict a Plan;`,
         `reduce access to an affected feature;`,
         `suspend an eSIM;`,
@@ -779,17 +779,17 @@ const sections: PolicySection[] = [
     ],
   },
   {
-    title: '35. Effect on Orders and Wallet Balance',
+    title: '35. Effect on Orders and Balance',
     blocks: [
       `Where an Account is restricted:`,
       [
         `pending Orders may be delayed;`,
         `unfulfilled Orders may be cancelled;`,
-        `the relevant Plan price may be restored to the Wallet Balance;`,
+        `the relevant Plan price may be restored to the Balance;`,
         `disputed funds may remain unavailable while investigated;`,
         `a reversed payment may be deducted;`,
         `Promotional Credit obtained through abuse may be removed; and`,
-        `legitimate Cash-Funded Balance will be handled in accordance with the Terms and Conditions and Payment and Wallet Policy.`,
+        `legitimate Cash-Funded Balance will be handled in accordance with the Terms and Conditions and Payment and Balance Policy.`,
       ],
       `A breach of this Policy does not automatically allow ArvoSim to confiscate legitimate Cash-Funded Balance.`,
       `Any deduction, withholding or refusal of refund must have a contractual or legal basis and be proportionate to the circumstances.`,
@@ -861,7 +861,7 @@ const sections: PolicySection[] = [
   {
     title: '40. Complaints and Appeals',
     blocks: [
-      `If you believe that your Account, eSIM, Order or Wallet was restricted incorrectly, you may request a review by emailing: info@arvosim.com`,
+      `If you believe that your Account, eSIM, Order or Balance was restricted incorrectly, you may request a review by emailing: info@arvosim.com`,
       `Your request should include:`,
       [
         `the Account email address;`,
@@ -882,7 +882,7 @@ const sections: PolicySection[] = [
       [
         `the Service;`,
         `available eSIM Plans;`,
-        `payment and Wallet functionality;`,
+        `payment and Balance functionality;`,
         `network-provider requirements;`,
         `security risks;`,
         `fraud patterns;`,
@@ -916,7 +916,7 @@ export default function AcceptableUsePage() {
     <PolicyPage
       title="Acceptable Use Policy"
       lastUpdated="31 July 2026"
-      intro="This Acceptable Use Policy sets out the rules that apply when you access or use the ArvoSim Website, Account, Wallet, eSIM Plans, mobile data connectivity and support. It protects users, prevents fraud and abuse, and ensures the Service is used only for its intended purpose."
+      intro="This Acceptable Use Policy sets out the rules that apply when you access or use the ArvoSim Website, Account, Balance, eSIM Plans, mobile data connectivity and support. It protects users, prevents fraud and abuse, and ensures the Service is used only for its intended purpose."
       sections={sections}
     />
   );
